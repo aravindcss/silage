@@ -1,0 +1,16 @@
+/*HOMEPAGE*/
+#bannerLanding {background: url(../images/businesses/business_banner_01.jpg) no-repeat center center; background-size: cover;}
+#bannerLanding01 {background: url(../images/businesses/business_banner_02.jpg) no-repeat center center; background-size: cover;}
+#bannerLanding02 {background: url(../images/businesses/business_banner_03.jpg) no-repeat center center; background-size: cover;}
+
+@media only screen and (max-width: 768px) {
+#bannerLanding {background: url(../images/businesses/business_banner_mo_01.jpg) no-repeat center center; background-size: cover;}
+#bannerLanding01 {background: url(../images/businesses/business_banner_mo_02.jpg) no-repeat center center; background-size: cover;}
+#bannerLanding02 {background: url(../images/businesses/business_banner_mo_03.jpg) no-repeat center center; background-size: cover;}
+
+#bannerbelowtext h3{font-size: 20px !important; font-family: 'Avenir-Book'; line-height: 30px !important; color: #212120;}
+#bannerbelowtext{padding: 50px 0px !important;}
+
+}
+#bannerbelowtext{padding: 90px 0px;}
+#bannerbelowtext h3{font-size: 40px; font-family: 'Avenir-Book'; line-height: 55px; color: #212120; margin-top: 6px; font-weight: normal;}

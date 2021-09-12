@@ -1,0 +1,81 @@
+/*Desktop*/
+#banner_our_strategy_01 {background: url(../images/sustainability/our-strategy/banner_our_strategy_01.jpg) no-repeat center center; background-size: cover;}
+#banner_our_strategy_02 {background: url(../images/sustainability/our-strategy/banner_our_strategy_02.jpg) no-repeat center center; background-size: cover;}
+#banner_our_strategy_03 {background: url(../images/sustainability/our-strategy/banner_our_strategy_03.jpg) no-repeat center center; background-size: cover;}
+
+.being_good_and_green_desc {border: 1px solid #e6e6e6; overflow-y: hidden;}
+.being_good_and_green_desc:hover {box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);}
+.being_good_and_green_desc .desc {display: none; height: 100%; padding: 60px 60px 0;}
+.being_good_and_green_desc .desc::before { width: 110%; height: 110%; position: absolute; left: 50%; top: 50%; transform:translate(-50%, -50%); background-color: rgba(255,255,255,0.8); content: '';}
+.being_good_and_green_desc .desc p, .being_good_and_green_desc .gg_desc p  {margin: 0 0; font-size: 25px; line-height: 42px;}
+/*Hover Effct only in Desktop*/
+@media only screen and (min-width:768px){
+	/*.being_good_and_green_desc:hover .desc {display: block;}*/
+	/*.being_good_and_green_desc:hover .gg_desc .learnmore:after { width: 100%; }*/
+}
+
+
+.business_model_overlay {
+	background: gray;
+	/*background: rgba(128,128,128,0.6);*/
+	background: rgba(255,255,255,0.7);
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transition: 0.3s;
+	opacity: 0;
+}
+.business_model_overlay p {
+	width: 100%;
+	position: absolute;
+	left: 0px;
+	top: 50%;
+	transform: translateY(-50%);
+	padding: 0px !important;
+}
+.business_model_overlay p .learnmore { color: #212120; }
+.business_model_overlay p .learnmore:after { background: #212120; }
+
+#Our_Business_Model:hover .business_model_overlay { opacity: 1; }
+
+.Sustainability_desc {padding: 60px 30px 20px;}
+.Sustainability_desc:hover {box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);}
+
+.arrow-down-close {display: none !important;}
+
+.being_good_and_green_desc h6 { line-height: 65px; position: absolute; left: 60px; bottom: 70px; }
+.being_good_and_green_desc h6 img { vertical-align: middle; margin-right: 15px; }
+.gg_desc { padding: 60px 60px 0px 60px; }
+.being_good_and_green_desc .palt { height: 100%; }
+
+
+/*Mobile*/
+@media only screen and (max-width: 768px) {
+	#banner_our_strategy_01 {background: url(../images/sustainability/our-strategy/mobile/banner_our_strategy_01.jpg) no-repeat center center; background-size: cover;}
+	#banner_our_strategy_02 {background: url(../images/sustainability/our-strategy/mobile/banner_our_strategy_02.jpg) no-repeat center center; background-size: cover;}
+	#banner_our_strategy_03 {background: url(../images/sustainability/our-strategy/mobile/banner_our_strategy_03.jpg) no-repeat center center; background-size: cover;}
+
+	.being_good_and_green_desc {border: 0; padding-bottom: 30px;}
+	.border_bottom {background-color: #e6e6e6; height: 1px; font-size: 0;}
+	.being_good_and_green_desc .desc p, .being_good_and_green_desc .desc_mob p { font-size: 16px; line-height: 28px; color: #a6a8ab; text-align: center; padding-top: 15px; }
+	/*.being_good_and_green_desc .desc {display: block; padding: 30px 20px 20px; text-align: center;}*/
+
+	.being_good_and_green_desc:hover {box-shadow: none;}
+	.being_good_and_green_desc .arrow-down-close {margin: 0;}
+
+	.arrow-down-close {display: inline-block !important; position: relative; left: 50%; transform: translateX(-50%);}
+	.Sustainability_desc {padding: 30px 20px 00px; margin-bottom: 20px;}
+	.Sustainability_desc h3 {font-size: 18px; line-height: 28px;}
+	/*.Sustainability_desc p {font-size: 11px; line-height: 16px;}*/
+	.being_good_and_green_desc h6 { position: static; left: auto; bottom: auto; float: left; width: 100%; text-align: center; padding-bottom:20px !important; line-height: inherit; }
+	.being_good_and_green_desc h6 img { margin: 0px 0px 23px 0px !important; height: 50px;  }
+	.being_good_and_green_desc .desc { padding: 10px 0px 30px 0px; }
+	.being_good_and_green_desc .learnmore::after {display: none;}
+	.business_model_img { padding: 0px 15px; }
+
+
+
+}

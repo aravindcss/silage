@@ -1,0 +1,68 @@
+/**
+ * CSS File for ezMark jQuery Plugin
+ *
+ **/
+.ez-hide { opacity: 0; filter:alpha(opacity=0); }
+.ez-checkbox {
+	background: transparent;
+	display:inline-block;
+	border: 1px solid #606060;
+	width: 16px;
+	height: 16px;
+	margin-right: 10px;
+	border-radius: 2px;
+	position: relative;
+	top: 3px;
+	transition-duration: 0.3s;
+	overflow: hidden;
+}
+.ez-checkbox:after {
+	content: "";
+    /*opacity: 0;*/
+    width: 10px;
+    height: 6px;
+    transform-origin: left top;
+    border-right: 2px solid #4ce0e0;
+    border-top: 2px solid #4ce0e0;
+    content: '';
+    left: 13px;
+    top: 5px;
+    position: absolute;
+
+	transform: rotate(135deg);
+	transition-duration: 0.3s;
+}
+.ez-checkbox:before {
+	width: 14px;
+	height: 14px;
+	content: " ";
+    opacity: 1;
+    background: #fff;
+    z-index: 99;
+	transition-duration: 0.3s;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+
+
+.ez-radio {
+	background: transparent;
+	display:inline-block;
+}
+
+.ez-checkbox.ez-checked:after { opacity: 1; }
+.ez-checkbox.ez-checked:before { left: 20px; }
+.ez-checkbox.ez-checked { border-color: #4ce0e0;  }
+.ez-selected {
+
+}
+
+.ez-checkbox-green {
+	background: transparent;
+	display:inline-block;
+	*display: inline;
+}
+.ez-checked-green { background-position: 0 -18px; }
+.ez-checkbox, .ez-radio { zoom: 1; *display:inline; _height:30px; }

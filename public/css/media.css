@@ -1,0 +1,114 @@
+#banner_media {background: url(../images/media/landing/banner_media.jpg) no-repeat center center; background-size: cover;}
+
+#Media_Landing { padding: 0px; }
+#media_search { margin-top: 50px; }
+#media_search_left { background: #fff; }
+#Media_Landing .desc { margin-bottom: 50px; }
+#media_search_left input[type='text'] { border-radius: 0px; background: #fff; height: 58px; border: 0px; font-size: 15px; color: #aaaaaa; padding: 0px 0px 0px 25px; font-family: 'Avenir-Roman'; }
+.search_form_dropdow { border-left: 1px solid #bbbbbb; padding: 0px 0 0px 15px; height: 32px; margin: 13px 0px; display: inline-block; float: left;}
+.selectBox-dropdown { background-color: #fff;}
+#by_year { margin-right: 25px; }
+#Media_Landing input[type='submit']{ -webkit-appearance: none; border-radius: 0px; background: #212120; height: 58px; border: 0px; color: #fff; cursor: pointer; font-size: 16px; float: right; margin-right: -1px; font-weight: normal; font-family: 'Avenir-Medium'; }
+#Media_Landing input[type='submit']:hover{ background: #fff; color: #212120; transition-duration: 0.3s; border-left: 1px solid #bbbbbb; }
+/*#Media_Landing input[type='reset']{font-family: 'Avenir-Medium'; background: none; border: 0px; color: #fff; cursor: pointer; font-size: 15px; text-align: left; height: 30px; line-height: 30px; margin-top: 14px; }*/
+/*#Media_Landing input[type='reset']:hover{font-family: 'Avenir-Black'; }*/
+
+/*#Media_Landing input[type='reset'] { background: transparent; border: 0px; cursor: pointer; display: inline-block; text-align: left; font-family: 'Avenir-Medium'; font-size:16px; line-height: 20px; color: #fff; position: relative; width: auto; }
+#Media_Landing input[type='reset']:after {content: " "; position: absolute; width: 0%; height: 1px; background: #fff; position: absolute; bottom: -8px; left: 0px; transition: 0.3s; }
+#Media_Landing input[type='reset']:hover:after { width: 100%; }*/
+
+#btnClearAllSearch { margin-top: 19px; margin-left: 6px; }
+#btnClearAllSearch input { width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; background: red; cursor: pointer; opacity: 0; }
+
+.pressreleases_box a { color: #a7a9ac; font-weight: normal; font-family: 'Avenir-Book'; line-height: 24px; float: left; width: 100%; display: block; }
+.news_date { font-size: 13px; font-family: 'Avenir-Roman'; color: #212120; display: inline-block; padding-top: 6px; }
+.press_title { font-size: 16px; line-height: 32px; }
+.search_icon { position: absolute; left: 20px; top: 17px; width: 24px; height: 24px; background: url('../images/media/search_icon.png') no-repeat left top; background-size: cover; }
+.download_icon { position: absolute; left: 0px; top: 20px; width: 38px !important; height: 38px !important; border-radius: 50%;}
+.download_icon span { display: block; width: 15px; height: 21px; background: url('../images/media/download_icon_blk.png') no-repeat left top; background-size: cover; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);}
+
+#Press_Release_Boxes { margin-left: -8px; margin-right: -8px; margin-top: 54px; }
+#Press_Release_Boxes .col-md-3 { padding-left: 8px; padding-right: 8px; }
+.pressreleases_box .pressreleases_link { background: #fff; border:1px solid rgba(0,0,0,0.07);}
+.pressreleases_box .download_icon { left: auto; right: 15px; top: 15px; }
+.pressreleases_box .pressreleases_link span { display: block; float: left; width: 100%; padding: 0px 25px 0px 25px; }
+.pressreleases_box .pressreleases_link:hover { box-shadow: 0 0 10px 0px rgba(96,96,96,0.1);}
+.pressreleases_box .pressreleases_link .news_date { margin-top: 23px; margin-bottom: 12px; }
+/*.press_title { min-height: 142px; max-height: 142px; }*/
+.press_title { min-height: 180px; max-height: 180px; }
+
+
+#Media_Landing ::-webkit-input-placeholder { color: #aaaaaa; }
+#Media_Landing ::-moz-placeholder { color: #aaaaaa; }
+#Media_Landing :-ms-input-placeholder { color: #aaaaaa; }
+#Media_Landing :-moz-placeholder { color: #aaaaaa; }
+
+.file_downloaded {padding: 0 0;}
+.file_downloaded img {top: 14px; right: 15px; width: 30px;}
+.file_downloaded h4 { width: 100%; float: left; font-family: 'Avenir-Medium'; font-size: 24px; line-height: 32px; color: #212120; padding:13px 60px 10px 20px; font-weight: normal;}
+.file_downloaded h4 a {color: #212120; display: inline-block;}
+
+.file_downloaded p {padding: 0 60px 0 20px; width: 100%; float: left; line-height: 26px; margin: 0px 0; font-family: 'Avenir-Medium'; color: #a7a9ac; font-weight: normal;}
+.file_downloaded p.news_text {font-size: 14px; line-height: 21px;}
+
+#no_results_found label {
+	background: #fff;
+	color: #212120;
+	font-family: 'Avenir-Medium';
+	font-weight: normal;
+	border-radius: 20px;
+	padding: 12px 45px;
+	margin-top: 40px;
+	display: inline-block;
+
+
+	/* Use the animation name with additional properties */
+	animation-name: rocket;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+	animation-delay: 3s;
+	animation-fill-mode: forwards;
+}
+
+/* Add a keyframe with a name, also add */
+@keyframes rocket {
+  from {
+    background: #fff;
+    color: #212120;
+  }
+  to {
+    background: transparent;
+    color: #fff;
+  }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+	.overflowxmo {overflow-x: hidden !important;}
+	#banner_media {background: url(../images/media/landing/mobile/banner_media.jpg) no-repeat center center; background-size: cover;}
+	#heading_pages_title_nobanner .page_title { font-size: 36px; line-height: 40px; padding: 0 0 35px;}
+
+	.file_downloaded img {top: 7px; width: 24px; right: 15px;}
+	.file_downloaded h4 {font-size: 18px; line-height: 28px; padding:5px 55px 5px 16px;}
+	.file_downloaded p {font-size: 14px; line-height: 21px; padding: 0 55px 0 16px;}
+
+	#media_search_left input[type='text'] {height: 40px; padding-left: 15px; font-size: 13px;}
+	#media_search_left {background-color: transparent;}
+	.selectBox-dropdown .selectBox-arrow {padding: 2px;}
+	#Media_Landing input[type='reset'] {text-align: center;}
+	#Press_Release_Boxes {margin-top: 30px;}
+
+	.pressreleases_box .pressreleases_link span {padding: 0px 10px 0px 10px;}
+	.pressreleases_box .pressreleases_link .news_date { font-size: 11px; line-height: 19px; }
+	.pressreleases_box .pressreleases_link .press_title { font-size: 14px; line-height: 19px; }
+
+	#media_search { margin-top: 30px; }
+	.search_form_dropdow { padding-left: 0px; border-left: 0px; }
+	#by_year { margin-right: 0px; width: 100%; }
+	.search_form_dropdow { display: block; }
+	#Media_Landing input[type='submit'] { margin-top: 30px; }
+
+	.press_title { min-height: 150px; max-height: 150px; }
+
+}

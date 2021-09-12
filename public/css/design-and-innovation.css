@@ -1,0 +1,63 @@
+#banner_innovation_01 {background: url(../images/innovation/banner_innovation_01.jpg) no-repeat center center; background-size: cover;}
+#banner_innovation_02 {background: url(../images/innovation/banner_innovation_02.html) no-repeat center center; background-size: cover;}
+#banner_innovation_03 {background: url(../images/innovation/banner_innovation_03.html) no-repeat center center; background-size: cover;}
+
+.extra_space { margin-bottom: 80px;  }
+.banner_desc h2 {color: #212120; line-height: 28px;}
+.banner_desc p {color: #a7a9ac; margin: 10px 0 20px 0;}
+.did_you_know h3{color: #4ce0e0 !important; font-size: 24px; line-height: 29px; font-family: 'Avenir-Book';}
+/*.did_you_know p{color: #4ce0e0; font-size: 14px; line-height: 27px; font-family: 'Avenir-Book'; color: #a7a9ac;}*/
+.did_you_know p{color: #4ce0e0; font-size: 16px; line-height: 28px; font-family: 'Avenir-Book'; color: #a7a9ac;}
+.box_desc {background-color: #fff; padding: 40px 40px 30px;}
+.box_desc p {margin: 50px 0 26px 0px;}
+.our_biggest_innovations_desc h2 {margin-bottom: 0;}
+.our_biggest_innovations_desc span{font-family: 'Avenir-Book'; font-size: 16px; line-height: 28px; color: #a7a9ac; margin-top: 20px; display: block;}
+
+.placeholder {
+	position: absolute;
+	left: 0%;
+	top: 50%;
+	background: gray;
+	width: 100%;
+	text-align: center;
+	transform: translateY(-50%);
+}
+.placeholder p {
+	font-size: 20px;
+	line-height: 26px;
+	padding: 30px !important;
+	margin: 0px !important;
+	color: #fff;
+}
+.videoplayic{
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);}
+
+
+/*Mobile*/
+@media only screen and (max-width: 768px) {
+	#banner_innovation_01 {background: url(../images/innovation/mobile/banner_innovation_01.jpg) no-repeat center center; background-size: cover;}
+	#banner_innovation_02 {background: url(../images/innovation/mobile/banner_innovation_02.html) no-repeat center center; background-size: cover;}
+	#banner_innovation_03 {background: url(../images/innovation/mobile/banner_innovation_03.html) no-repeat center center; background-size: cover;}
+	/*.banner_desc p {font-size: 13px; line-height: 21px;}*/
+	.gallery_mo .container-fluid, .gallery_mo .col-xs-4 {padding-right: 5px; padding-left: 5px;}
+
+	.banner_desc h2 {font-size: 20px;}
+
+	.our_biggest_innovations_desc h2 {font-size: 15px; line-height: 21px;}
+	.our_biggest_innovations_desc h2 span {font-size: 13px; line-height: 18px;}
+	.our_biggest_innovations_desc h2 span br {display: none;}
+	.box_desc p {margin: 30px 0 10px 0;}
+	.extra_space { margin-bottom: 40px; }
+	.placeholder p {
+		font-size: 16px;
+		line-height: 26px;
+		padding: 15px !important;
+		margin: 0px !important;
+		color: #fff;
+	}
+	.our_biggest_innovations_desc h3 {line-height: 27px;}
+	.our_biggest_innovations_desc p {line-height: 24px;}
+}

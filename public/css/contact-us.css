@@ -1,0 +1,96 @@
+#Contact_Us_banner .landing_caption { margin-top: 74px;}
+
+#contact_us form {padding: 0 15%; border:1px solid rgba(167,169,172,0.4);}
+/*#contact_us form:hover {box-shadow: 0 0 15px 2px rgba(167,169,172,0.2); border:0;}*/
+
+input[type='submit'] {
+	/*display: inline-block; font-family: 'Avenir-Medium'; font-size: 20px; line-height: inherit; padding: 6px 0; border:0; border-bottom: 2px solid rgba(167,169,172,0.4); border-radius: 0; background-color: transparent;*/
+	background: #212120;
+    height: 58px;
+    border: 0px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 0px 50px;
+    -webkit-appearance: none;
+    border-radius: 0px;
+}
+#contact_us input[type='text'], textarea { -webkit-appearance: none; border-radius: 0px; width: 100%; font-family: 'Avenir-Medium'; font-weight: normal; float: left; padding: 15px 20px; border:none; border-bottom: 1px solid rgba(167,169,172,0.4); font-size: 20px; line-height: inherit; color: #a7a9ac; text-align: center;}
+#contact_us input[type='radio']{ width: auto; display: inline-block;float: left; }
+#contact_us textarea {height: 200px; border:1px solid rgba(167,169,172,0.4); line-height: 28px; margin-top: 10px;}
+.form-tag small {font-size: 13px; line-height: 30px; color: #a7a9ac; text-align: center;}
+.radio_btn {padding: 15px 0 10px;}
+.radio_btn label {display: inline-block;}
+.radio_btn span { vertical-align: top; font-family: 'Avenir-Medium'; font-weight: normal; font-size: 20px; line-height: inherit; color: #a7a9ac; margin-top: 11px; display: inline-block; padding-left: 10px;}
+.form-tag {margin: 15px 0;}
+.selectBox-dropdown {padding: 12px 40px 9px 15px !important;}
+.selectBox-dropdown .selectBox-label { text-align: center;}
+.selectBox-dropdown-menu {max-height: none !important; min-height: auto !important;}
+/*.selectBox-options LI A {color: #a7a9ac !important;}*/
+.selectBox-options LI:first-child  { display: none; }
+
+.ez-radio, input[type='radio'] { margin: 0; width: 36px; height: 36px; border: 1px solid rgba(167,169,172,0.4); display: inline-block;}
+
+.contact_us_accorddiv p { margin: 18px 0; line-height: 28px;}
+.contact_us_accorddiv p strong { font-family: 'Avenir-Medium'; font-weight: normal; }
+
+#Accordions { margin: 100px 0 0 0; }
+.accorddesc { display: none; padding-bottom: 30px;} 
+.accorddiv h3 {position: relative; padding: 25px 0; font-size: 26px; cursor: pointer; }
+.accorddiv p { color: #a7a9ac; } 
+.accorddiv p a { color: #212120; }
+.accorddiv p.blk212120 { color: #212120; }
+
+
+.header_th p {color: #212120; font-family: 'Avenir-Medium';}
+.header_th { border-bottom:1px solid rgba(167,169,172,0.4);}
+
+.ez-selected {position: relative;}
+.ez-selected::before {content: ''; font-size: 0; width: 12px; height: 20px; padding: 3px; border-width: 0px 3px 3px 0px; border-style: solid; border-color: #212120; position: absolute; left: 50%; top: 40%; transform: translate(-50%,-50%) rotate(45deg); }
+
+.accorddiv table td {padding-right: 20px;}
+.accorddiv table td a {font-family: 'Avenir-Medium'; }
+
+.radio_btn { position: relative; }
+.radio_btn label.error { position: absolute; left: 0px; bottom: -12px; min-width: 200px; }
+.has_selectbox label.error { position: absolute; left: 0px; bottom: -23px; }
+
+/*Mobile*/
+@media only screen and (max-width: 768px) {
+
+body, html { overflow-x: hidden; }
+#Contact_Us_banner .landing_caption { margin-top: 10px;}
+
+#contact_us form {padding: 0 10%;}
+input[type='text'], textarea {font-size: 15px; padding: 8px 10px;}
+textarea {line-height: 24px; height: 180px;}
+.radio_btn span {font-size: 15px; margin-top: 6px; padding-left: 6px;}
+.form-tag small {font-size: 12px;}
+.ez-radio, input[type='radio'] {width: 24px; height: 24px;}
+
+
+.accorddiv h3 {font-size: 18px;}
+.contact_us_accorddiv p {font-size: 12px; line-height: 19px;}
+.contact_us_accorddiv .header_th p {font-size: 13px; line-height: 21px;}
+
+.ez-selected::before {width: 8px; height: 15px;}
+/*#contact_us form {box-shadow: 0 0 15px 2px rgba(167,169,172,0.2); border:0;}*/
+input[type='submit'] {
+    height: 48px;
+    padding: 0px 40px;
+}
+}
+label.error {text-align: center; float: left; width: 100%; display: block; font-size: 15px; font-family: 'Avenir-Book'; padding-top: 10px; color: red; }
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #a7a9ac;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #a7a9ac;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #a7a9ac;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #a7a9ac;
+}

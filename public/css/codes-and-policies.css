@@ -1,0 +1,38 @@
+.topspace133 {height: 133px;}
+#Codes_Policies .page_title {font-family: 'Avenir-Black'; font-size: 55px; line-height: 61px; margin: 0; padding: 8.3% 0 1.8%;}
+#Codes_Policies h3{ cursor: pointer; font-size: 35px; font-weight: normal; font-family: 'Avenir-Book'; line-height: 50px; position: relative; padding: 20px 0px 20px 40px; }
+#Codes_Policies h3 span { position: absolute; top: 50%; left: 0px; transform: translateY(-50%); font-size: 20px; font-weight: normal; font-family: 'Avenir-Medium'; color: #a7a9ac; vertical-align: middle; }
+#Codes_Policies h3::after {content: ''; width: 0; height: 0; border-style: solid; border-color: #a7a9ac; border-width: 0px 2px 2px 0; position: absolute; right: 30px; top: 23px; padding: 12px; transform: rotate(45deg); transition: 0.5s; }
+
+#Codes_Policies .accordshow h3::after {transform: rotate(-135deg); top: 40px; }
+
+#Codes_Policies .accorddiv p { font-size: 22px; padding: 24px 0px 25px 0px; line-height: 45px; }
+#Codes_Policies .accorddiv p img { vertical-align: middle; margin: -2px 30px 0px 0px; }
+#Codes_Policies .accorddiv p a { color: #a6a8ab; }
+.accorddesc { padding: 0px 130px 0px 130px; }
+
+#Accordions { margin: 100px 0 0 0; }
+.accorddesc {
+    display: none;
+    padding-bottom: 30px;
+}
+
+/*Mobile*/
+@media only screen and (max-width: 768px) {
+  
+  #Codes_Policies .page_title {
+    font-size: 36px;
+    line-height: 40px;
+    padding: 0 0 50px;
+  }
+  #Codes_Policies .accorddiv p a {text-indent: 0px !important;margin-left: 0px !important;}
+  #Codes_Policies h3 { font-size: 25px; line-height: 40px; padding-left: 30px; }
+  #Codes_Policies h3 span { font-size: 16px; }
+  #Codes_Policies h3::after { padding: 9px; right: 15px; }
+  .accorddesc { padding-left: 30px; padding-right: 30px; }
+  #Codes_Policies .accorddiv p { font-size: 16px; padding-top: 24px; padding-bottom: 25px; line-height: 25px; position: relative; }
+  #Codes_Policies .accorddiv p a { position: relative; display: block; padding-left: 47px; }
+  #Codes_Policies .accorddiv p img { width: 28px; margin-right: 20px; float: left; margin-bottom: 10px; margin-top: 0px; position: absolute; top: -2px; left: 0px; }
+  #Accordions { margin-top: 0px; }
+
+}

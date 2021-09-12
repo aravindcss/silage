@@ -1,0 +1,104 @@
+/*Desktop*/
+#banner_philosophy_01 {background: url(../images/people/philosophy/Banner-01.jpg) no-repeat center center; background-size: cover;}
+#banner_philosophy_02 {background: url(../images/people/philosophy/Banner-02.jpg) no-repeat center center; background-size: cover;}
+
+#banner_godrej_way_01 {background: url(../images/about/the-godrej-way/The-Godrej-Way-01.jpg) no-repeat center center; background-size: cover;}
+#banner_godrej_way_02 {background: url(../images/about/the-godrej-way/The-Godrej-Way-02.jpg) no-repeat center center; background-size: cover;}
+/*#The_Godrej_Way_Top { margin-top: 110px; margin-bottom: 90px; }*/
+#The_Godrej_Way_Top { margin-top: 110px; margin-bottom: 68px; }
+
+.title_desc_left .section_title {
+	font-family: 'Avenir-Book' !important;
+	font-size: 35px !important;
+	line-height: 55px !important;
+	font-weight: normal !important;
+}
+.title_desc_left .section_title.bigger {
+	font-size: 55px !important;
+	line-height: 75px !important;
+	font-weight: normal !important;
+}
+.section_break { margin: 50px 0px 2px 0px; }
+#Our_Philosophy .section_break { margin: 90px 0px 42px 0px; }
+#Our_Philosophy .section_break p { margin-bottom: 0px !important; }
+
+.more_philosophy { margin-top: 35px; }
+
+#join_us_profile .col-md-2 {width: 20%; float: left; padding: 0;}
+#join_us_profile h4 {font-family: 'Avenir-Medium'; font-weight: normal; font-size: 40px; line-height: inherit; color: #fff; margin-bottom: 5%; text-shadow: 0 0 15px rgba(0,0,0,0.4)} 
+#join_us_profile a {color: #fff;}
+#join_us_profile .learnmore:after {background: #fff;}
+#join_us_profile .bg_op_grey {background: rgba(18,18,20,0.3); height: 100%; width: 100%; z-index: 99; content: ''; float: left; position: absolute; left: 0; top: 0;}
+
+p.philosophy_caption { font-size: 20px !important; line-height: 30px !important; font-family: 'Avenir-Medium' !important; margin-bottom: 30px !important; }
+
+.philosophy_desc { display: none; }
+
+.arrow-down-close {
+  width: 30px;
+  height: 20px;
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 40px;
+}
+.arrow-down-close:before, .arrow-down-close:after {
+  content: '';
+  display: inline-block;
+  height: 20px;
+  width: 3px;
+  background-color: #121214;
+  border-radius: 2px;
+  position: relative;
+  transition: 100ms ease-in-out transform;
+}
+.arrow-down-close:before {
+  transform: rotate(-45deg);
+  left: 6px;
+  top: 0px;
+}
+.arrow-down-close:after {
+  transform: rotate(45deg);
+  left: 16px;
+  top: 0px;
+}
+.arrow-down-close.open:before {
+  transform: translateX(7px) rotate(-45deg);
+  height: 25px;
+}
+.arrow-down-close.open:after {
+  transform: translateX(-6px) rotate(45deg);
+  height: 25px;
+}
+
+
+/*Mobile*/
+@media only screen and (max-width: 768px) {
+	#The_Godrej_Way_Top { margin-top: 60px; margin-bottom: 50px; }
+	#banner_godrej_way_01 {background: url(../images/about/the-godrej-way/mobile/The-Godrej-Way-01.jpg) no-repeat center center; background-size: cover;}
+	#banner_godrej_way_02 {background: url(../images/about/the-godrej-way/mobile/The-Godrej-Way-02.jpg) no-repeat center center; background-size: cover;}
+	#banner_philosophy_01 {background: url(../images/people/philosophy/mobile/Banner-01.jpg) no-repeat center center; background-size: cover;}
+	.title_desc_left .section_title, .title_desc_left .section_title.bigger {
+		font-size: 20px !important;
+		line-height: 35px !important;
+	}
+	.title_desc_left .section_title.bigger {
+		margin-top: 30px;
+	}
+	.title_desc_left p { font-size: 15px !important; line-height: 26px !important; }
+	#oru_purpose .mob_videos { margin-top: 0px !important; }
+	#meet-godrej h2 {display: block; text-align: center !important; padding-right: 0 !important; font-size: 40px !important; line-height: 46px !important;}
+	#join_us_profile h4 {font-size: 17px;}
+	#join_us_profile .learnmore {font-size: 15px;}
+	#meet-godrej .learnmore {
+	    padding: 10px 29px 10px;
+	    background: #fff;
+	    bottom: 37%;
+	    font-size: 14px;
+	    position: absolute !important;
+	    z-index: 9999;
+	}
+	#join_us_profile .col-xs-4 {width: 33.3333%;}
+	#Our_Philosophy .section_break { margin: 50px 0px 2px 0px; }
+	.more_philosophy { margin-top: 25px; }
+	.arrow-down-close { margin-top: 30px; }
+}

@@ -1,0 +1,42 @@
+#banner_diversity {background: url(../images/people/diversity/Banner_Diversity_01.jpg) no-repeat center center; background-size: cover;}
+#banner_diversity02 {background: url(../images/people/diversity/Banner_Diversity_02.jpg) no-repeat center center; background-size: cover;}
+#banner_diversity03 {background: url(../images/people/diversity/Banner_Diversity_03.jpg) no-repeat center center; background-size: cover;}
+#after_landing_shortdesc.lovesym h6 {display: inline-block; width: auto; float: none; text-align: center; position: relative;}
+.lovesym img {display: inline-block; width: 7%; position: absolute; right: -0%; bottom: -23%; display: inline-block;}
+#heart {display: inline-block; width: 60px; position: absolute; right: 0%; bottom: -40%; display: inline-block;}
+.closetitle h3, .closetitle h4{ float: right; }
+#employee_workplace_inclusion .desc{ padding: 0 20px; }
+#employee_workplace_inclusion h6 {font-size: 26px; line-height: 38px; color: #212120; font-family: 'Avenir-Medium'; font-weight: normal; margin-bottom: 40px;}
+#employee_workplace_inclusion h6 span {font-size: 40px; line-height: inherit; color: #212120; font-family: 'Seaside-Groove-Regular'; font-weight: normal;}
+#employee_workplace_inclusion p {color: #a7a9ac; font-family: 'Avenir-Book'; }
+.title_desc_left h3.txt_we_value { padding-top: 5px; }
+
+.download_icon { position:absolute; right: 20px; top: 20px; width: 38px !important; height: 38px !important; border-radius: 50%;}
+.download_icon span {  display: block; width: 15px; height: 21px; background: url('../images/media/download_icon_blk.png') no-repeat left top; background-size: cover; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);}
+
+@media only screen and (max-width: 768px) {
+	#banner_diversity {background: url(../images/people/diversity/mobile/Banner_Diversity_01.jpg) no-repeat center center; background-size: cover;}
+	#banner_diversity02 {background: url(../images/people/diversity/mobile/Banner_Diversity_02.jpg) no-repeat center center; background-size: cover;}
+	#banner_diversity03 {background: url(../images/people/diversity/mobile/Banner_Diversity_03.jpg) no-repeat center center; background-size: cover;}
+	.closetitle h3 {float: none;}
+	.closetitle h3 span {font-size: 30px; font-family: 'Seaside-Groove-Regular'; font-weight: normal;}
+	.accorddesc {display: none; padding-bottom: 30px;}
+	.accorddiv { padding: 0 20px;}
+	.accordshow .accorddesc {display: block;}
+	#employee_workplace_inclusion h3 {font-size: 20px; line-height: 26px; margin: 20px 0; font-weight: normal; }
+	#employee_workplace_inclusion .desc {padding: 0;}
+	#employee_workplace_inclusion h3 {position: relative;}
+	#employee_workplace_inclusion h3 span { font-size: 28px; }
+	#employee_workplace_inclusion h3::after, #employee_workplace_inclusion h3::before {content: ''; width: 0; height: 0; border-style: solid; border-color: #212120; border-width: 0px 1px 1px 0; position: absolute; right: 0 ; top: 0px; padding: 6px; transform: rotate(45deg);}
+	#employee_workplace_inclusion h3::before {transform: rotate(225deg); top: 22px;}
+	
+	#employee_workplace_inclusion h3::before {display: none;}
+	#employee_workplace_inclusion .accordshow h3::after {display: block;  top: 0px;}
+	#employee_workplace_inclusion .accordshow h3::before {display: block;  top: 16px;}
+	#heart {display: inline-block; width: 26px; position: absolute; right: -2%; bottom: -54%; display: inline-block;}
+	}
+
+	
+@media (min-device-width:320px) and (max-device-width:768px) {
+    #heart {display: inline-block; width: 26px; position: absolute; right: -2%; bottom: -54%; display: inline-block;}
+}

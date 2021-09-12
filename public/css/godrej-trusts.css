@@ -1,0 +1,32 @@
+/*Desktop*/
+#banner_godrej_trusts_01 {background: url(../images/sustainability/godrej-trusts/Banner_Godrej_Trusts_01.jpg) no-repeat center center; background-size: cover;}
+#banner_godrej_trusts_02 {background: url(../images/sustainability/godrej-trusts/Banner_Godrej_Trusts_02.jpg) no-repeat center center; background-size: cover;}
+#banner_godrej_trusts_03 {background: url(../images/sustainability/godrej-trusts/Banner_Godrej_Trusts_03.jpg) no-repeat center center; background-size: cover;}
+#banner_godrej_trusts_04 {background: url(../images/sustainability/godrej-trusts/Banner_Godrej_Trusts_04.jpg) no-repeat center center; background-size: cover;}
+#godrej_trusts { margin-top: 110px; }
+h3.sustainability_titles,  h3.inside_page_titles { padding-bottom: 100px; }
+h4.sustainability_titles { font-size: 26px !important; line-height: 35px !important; }
+#godrej_trusts .title_desc_left p { margin-top: 20px !important; }
+.godrej_trusts_box { padding: 0px 0px 40px 0px; }
+.godrej_trusts_box .seperator { margin: 75px 0px 35px 0px; }
+.banner_caption { position: absolute; left: 0px; top: 50%; width: 100%; transform: translateY(-50%); /* margin-top: 100px; */ margin-top: 50px; z-index: 9;}
+.banner_caption .play_video_api, .banner_caption .play_video_popup { display: inline-block !important;}
+.banner_caption h2 { font-size: 90px !important; font-weight: normal; font-family: 'Avenir-Black' !important; line-height: 93px !important; text-shadow: 0px 0px 60px rgb(0 0 0 / 70%); padding-bottom: 30px !important;}
+/*Mobile*/
+@media only screen and (max-width: 768px) {
+	#banner_godrej_trusts_01 {background: url(../images/sustainability/godrej-trusts/mobile/Banner_Godrej_Trusts_01.jpg) no-repeat center center; background-size: cover;}
+	#banner_godrej_trusts_02 {background: url(../images/sustainability/godrej-trusts/mobile/Banner_Godrej_Trusts_02.jpg) no-repeat center center; background-size: cover;}
+	#banner_godrej_trusts_03 {background: url(../images/sustainability/godrej-trusts/mobile/Banner_Godrej_Trusts_03.jpg) no-repeat center center; background-size: cover;}
+	#banner_godrej_trusts_04 {background: url(../images/sustainability/godrej-trusts/mobile/Banner_Godrej_Trusts_04.jpg) no-repeat center center; background-size: cover;}
+	.banner_caption h2 {
+    font-size: 13vw !important;
+    line-height: 15vw !important;}
+	.godrej_trusts_box h4, .godrej_trusts_box p { padding-left: 10%; padding-right: 10%; }
+	#godrej_trusts { margin-top: 60px; }
+	h4.sustainability_titles {
+		font-size: 20px !important;
+		line-height: 30px !important;
+	}
+	h3.sustainability_titles, h3.inside_page_titles { padding-bottom: 50px; }
+	.godrej_trusts_box .seperator { margin: 50px 0px 25px 0px; }
+}

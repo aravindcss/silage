@@ -1,0 +1,82 @@
+/*Desktop*/
+#banner_csr_01 {background: url(../images/sustainability/csr/Banner_CSR_01.jpg) no-repeat center center; background-size: cover;}
+#banner_csr_02 {background: url(../images/sustainability/csr/Banner_CSR_02.jpg) no-repeat center center; background-size: cover;}
+#banner_csr_03 {background: url(../images/sustainability/csr/Banner_CSR_03.jpg) no-repeat center center; background-size: cover;}
+#our_strategy_csr { padding: 100px 0 0 0; }
+p.csr_note { font-size: 13px !important; color: #a6a8ab !important; margin: 10px 0 0 0 !important; }
+.initiatives_box { margin: 0px 0px !important; }
+.initiatives_box .seperator { margin: 0px !important; }
+.initiatives_box_container {margin: 17px 0px !important;}
+.initiatives_box_container:hover, .initiatives_box_container.shown {box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)}
+/*.initiatives_box:hover {box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)}*/
+.arrow-down-close {display: none !important;}
+.initiatives_box .arrow-down-close {display: inline-block !important;}
+.initiatives_boxdesc h6 { color: #79da61; font-size: 20px; line-height: 30px; font-family: 'Avenir-Medium'; font-weight: normal; }
+.initiatives_boxdesc { padding: 70px 0px 70px 0px; display: none; }
+.initiatives_desc { padding: 0px 30px 0px 30px; }
+
+.show_initiatives .arrow-down-close { transition: 0.4s; }
+.show_initiatives.shown .arrow-down-close { transform: rotate(-180deg); }
+
+.impact_box { overflow-x: hidden; }
+
+
+.impact_box .arrow-down-close {
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: relative;
+  left: 50%;
+  margin: 15px 0 0;
+  transform: translateX(-50%);
+}
+.impact_box .arrow-down-close:before, .impact_box .arrow-down-close:after {
+  content: '';
+  display: inline-block;
+  height: 20px;
+  width: 3px;
+  background-color: #121214;
+  position: absolute;
+  /*transition: 100ms ease-in-out transform;*/
+}
+.impact_box .arrow-down-close:before { transform: rotate(-45deg); left: 2px; top: 0px;}
+.impact_box .arrow-down-close:after { transform: rotate(45deg); right: 2px; top: 0px;}
+.impact_box .arrow-down-close.open {margin-bottom: 10px;}
+.impact_box .arrow-down-close.open:before { height: 24px; left: 50%; top: -1px; transform: translateX(-50%) rotate(-45deg);}
+.impact_box .arrow-down-close.open:after { height: 24px; right: auto; left: 50%; top: -1px; transform: translateX(-50%) rotate(45deg);}
+
+/*Mobile*/
+@media only screen and (max-width: 768px) {
+	#banner_csr_01 {background: url(../images/sustainability/csr/mobile/Banner_CSR_01.jpg) no-repeat center center; background-size: cover;}
+	#banner_csr_02 {background: url(../images/sustainability/csr/mobile/Banner_CSR_02.jpg) no-repeat center center; background-size: cover;}
+	#banner_csr_03 {background: url(../images/sustainability/csr/mobile/Banner_CSR_03.jpg) no-repeat center center; background-size: cover;}
+
+	#our_strategy_csr {padding: 40px 0 0;}
+	.arrow-down-close {display: inline-block !important; position: relative; left: 50%; transform: translateX(-50%); margin: 20px 0 0;}
+
+	.impact_box table tbody td {font-size: 12px; line-height: 16px;}
+	.impact_box table tfoot td, .impact_box table tfoot th {font-size: 14px; line-height: 18px;}
+
+	.border_bottom {background-color: #e6e6e6; height: 1px; font-size: 0;}
+
+	/*.impact_box .sustainability_titles {font-size: 21px !important; line-height: 28px !important;}*/
+	/*.title_desc_left p {font-size: 14px; line-height: 18px;}*/
+	.initiatives_box:hover {box-shadow: none;}
+	.initiatives_box_container { overflow-x: hidden; }
+	.initiatives_box_container:hover, .initiatives_box_container.shown {
+		box-shadow: none !important;
+	}
+	p.csr_note { margin-left: 0px !important; text-align: center; }
+
+	.initiatives_box h3 { padding-top: 50px; padding-bottom: 20px; }
+	.title_desc_left .initiatives_box p { margin-bottom: 10px; }
+
+	.show_initiatives { margin-bottom: 30px; }
+	.show_initiatives:hover { margin-bottom: 30px; }
+	.learnmore.show_initiatives:hover:after { width: 0%; }
+	.initiatives_boxdesc { padding-top: 0px; padding-bottom: 30px; }
+	.initiatives_boxdesc h6 { padding-top: 50px; }
+	.newly_launch h6{ padding-top: 20px !important; }
+
+
+}

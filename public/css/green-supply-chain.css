@@ -1,0 +1,65 @@
+/*Desktop*/
+#banner_gsc {background: url(../images/sustainability/green-supply-chain/Banner_GSC.jpg) no-repeat center center; background-size: cover;}
+#banner_gsc_01 {background: url(../images/sustainability/green-supply-chain/Banner_GSC_01.jpg) no-repeat center center; background-size: cover;}
+#banner_gsc_02 {background: url(../images/sustainability/green-supply-chain/Banner_GSC_02.jpg) no-repeat center center; background-size: cover;}
+#banner_gsc_03 {background: url(../images/sustainability/green-supply-chain/Banner_GSC_01.jpg) no-repeat center center; background-size: cover;}
+#gsc_top { margin-top: 90px; }
+#gsc_top h3 { font-family: 'Avenir-Book'; padding: 15px 0px; }
+#gsc_top .learnmore { margin-top: 70px; }
+h4.sustainability_titles {
+    font-size: 26px !important;
+    line-height: 35px !important;
+}
+p.csr_note { font-size: 13px !important; color: #a6a8ab !important; margin: 10px 0 0 0 !important; }
+.extended_producer .learnmore { margin-bottom: 10px; }
+
+.packaging_tables table { margin-bottom: 80px; }
+
+
+.arrow-down-close {
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: relative;
+  left: 50%;
+  margin: 15px 0 0;
+  transform: translateX(-50%);
+}
+.arrow-down-close:before, .arrow-down-close:after {
+  content: '';
+  display: inline-block;
+  height: 20px;
+  width: 3px;
+  background-color: #121214;
+  position: absolute;
+  /*transition: 100ms ease-in-out transform;*/
+}
+.arrow-down-close:before { transform: rotate(-45deg); left: 2px; top: 0px;}
+.arrow-down-close:after { transform: rotate(45deg); right: 2px; top: 0px;}
+.arrow-down-close.open {margin-bottom: 10px;}
+.arrow-down-close.open:before { height: 24px; left: 50%; top: -1px; transform: translateX(-50%) rotate(-45deg);}
+.arrow-down-close.open:after { height: 24px; right: auto; left: 50%; top: -1px; transform: translateX(-50%) rotate(45deg);}
+
+
+/*Mobile*/
+@media only screen and (max-width: 768px) {
+	#banner_gsc {background: url(../images/sustainability/green-supply-chain/mobile/Banner_GSC.jpg) no-repeat center center; background-size: cover;}
+	#banner_gsc_01 {background: url(../images/sustainability/green-supply-chain/mobile/Banner_GSC_01.jpg) no-repeat center center; background-size: cover;}
+	#banner_gsc_02 {background: url(../images/sustainability/green-supply-chain/mobile/Banner_GSC_02.jpg) no-repeat center center; background-size: cover;}
+	#banner_gsc_03 {background: url(../images/sustainability/green-supply-chain/mobile/Banner_GSC_01.jpg) no-repeat center center; background-size: cover;}
+	h4.sustainability_titles {
+		font-size: 20px !important;
+		line-height: 30px !important;
+	}
+	.godrej_trusts_box h4, .godrej_trusts_box p {
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+	#gsc_top h3 {
+		font-size: 20px !important;
+		line-height: 35px !important;
+	}
+	#gsc_top { margin-top: 40px; }
+	#gsc_top .learnmore { margin-top: 30px; }
+	.packaging_tables table { margin-bottom: 10px; }
+}

@@ -1,0 +1,122 @@
+#Why_Godrej_01 { background: url(../images/people/why-godrej/why_godrej_banner.jpg) no-repeat center center; background-size: cover; }
+.title_desc_left .page_title {font-family: 'Avenir-Black'; font-size: 86px; line-height: 110px; margin: 0;}
+.title_desc_left .page_title .Seaside-Groove-Regular {font-size: 110px;}
+.title_desc_left .page_title .txt_greener {color: #79db61;}
+.why_godrej_title h1, .why_godrej_title p {text-shadow: 0px 0px 60px rgba(0,0,0,0.7);}
+.title_desc_left .page_title span img {margin-bottom: -5px; padding: 0 4px;}
+.title_desc_left p {/*line-height: 28px;*/ /*margin-top: 50px;*/}
+.h148 {height: 148px;font-size: 0;}
+.fwvh148 {height: calc(100vh - 148px);}
+/*.main_sec {padding-top: 180px;}*/
+/*.other_sec {border-top: 0.5px solid rgba(0, 0, 0, 0.1); overflow-y: hidden;}*/
+/*.dropdown {width: 80px; height: 80px; display: inline-block; border:1px solid #fff; border-radius: 50%; position: absolute; right: 0; top: 50%; transform: translateY(-50%);}*/
+.dropdown {width: 80px; height: 80px; display: inline-block; border:1px solid #fff; border-radius: 50%; position: relative; }
+.dropdown::after {width: 25px; height: 25px; content: ''; font-size: 0; border-style: solid; border-color: #fff; border-width: 0 1px 1px 0; padding: 4px; margin: 0; position: absolute; left: 50%; top: 44%; transform: translate(-50%,-50%) rotate(45deg);}
+.title_desc_left p{color: #a7a9ac;}
+.title_desc_left .srno {margin-top: 20px; font-size: 40px !important; line-height: inherit !important; color: #a7a9ac; display: inline-block; text-align: center; font-family: 'Avenir-Black'; color: #a7a9ac;}
+/*.linkname {position: relative; display: inline-block; font-size: 20px; line-height: 1; color: #e27ac7; font-family: 'Avenir-Black';}*/
+/*.linkname:after {height: 2px; width: 100%; background-color: #e27ac7;position: absolute; bottom: -4px; left: 0; content: ''; }*/
+.learnmore.black {color: #121214;}
+.learnmore.black:after {background-color: #121214;} 
+.playic.green_play { background-color: #79db61;}
+.playic.red_play { background-color: #ef2626;}
+.playic.yellow_play { background-color: #ffdd15;}
+.learnmore.green {color: #79db61 !important; }
+.learnmore.green:after {background-color: #79db61 !important; }  
+.learnmore.red {color: #ef2626 !important; }
+.learnmore.red:after {background-color: #ef2626 !important; }   
+.learnmore.pink {color: #e27ac7 !important;}
+.learnmore.pink:after {background-color: #e27ac7 !important;}    
+.learnmore.yellow {color: #ffdd15 !important;}
+.learnmore.yellow:after {background-color: #ffdd15 !important;}     
+.learnmore.lightblue {color: #4ce0e0 !important;}
+.learnmore.lightblue:after {background-color: #4ce0e0 !important;}     
+.learnmore.drpink {color: #e27ac7 !important;}
+.learnmore.drpink:after {background-color: #e27ac7 !important;}     
+.learnmore.lem_yellow {color: #ffdd15 !important;}
+.learnmore.lem_yellow:after {background-color: #ffdd15 !important;}
+.bold_border{ margin-right: 600px; padding-top: 400px;} 
+.malaria{ margin-bottom: -25px; right: -200px; width: 170px;}
+.status_quo{right: -246px; bottom: 8px; width: 290px;}
+.arrow_right img{z-index: -9; left: -10px;top: 54%;}
+.arrow_right {color: #fff;}
+.happiness {right: -323px; bottom: -22px; width: 423px;}
+.txt_diversity {right: -120px; bottom: 3px; width: 393px;}
+.loveo {width: 70px;}
+.ic_right_arrow {width: 230px;}
+.ic_potential {margin-right: -10px; width: 74px;}
+.bold_bo {width: 370px;}
+/*.links .linkname:hover:after {width: 100%; transition: 0.2s;}*/
+.playic { vertical-align: middle;margin: -2px 10px 0 0; width: 35px; height: 35px; display: inline-block; border-radius: 50%; background-color: #e27ac7; position: relative;}
+.playic:after {content: ''; position: absolute; left: 55%; top: 50%; transform: translate(-50%,-50%); width: 0; height: 0; border-style: solid; border-width: 7px 0 7px 11px; border-color: transparent transparent transparent #fff;}
+
+#join_us_profile .col-md-2 {width: 20%; float: left; padding: 0;}
+#join_us_profile h4 {font-family: 'Avenir-Medium'; font-weight: normal; font-size: 40px; line-height: inherit; color: #fff; margin-bottom: 5%; text-shadow: 0 0 15px rgba(0,0,0,0.4)} 
+#join_us_profile a {color: #fff;}
+#join_us_profile .learnmore:after {background: #fff;}
+#join_us_profile .bg_op_grey {background: rgba(18,18,20,0.3); height: 100%; width: 100%; z-index: 99; content: ''; float: left; position: absolute; left: 0; top: 0;}
+
+.video_slide { z-index: 9999; min-height: 100% !important; }
+
+.scrollable-content {
+	background: red;
+	overflow: scroll;
+	margin: 0 auto;
+	width: 100vw;
+	height: 100vh;
+}
+
+.title_desc_left h3.lets_hear_title { font-size: 35px !important; font-family: 'Avenir-Book' !important; }
+
+@media only screen and (max-width: 768px) {
+	.title_desc_left h3.lets_hear_title { font-size: 25px !important; }
+	html, body { overflow-y: hidden; }
+	#Why_Godrej_01 { background: url(../images/people/why-godrej/why_godrej_banner_mo.jpg) no-repeat center center; background-size: cover; }
+	/*.title_desc_left .page_title {font-size: 38px; line-height: 48px; text-align: center;}*/
+	.title_desc_left .page_title {font-size: 42px; line-height: 54px; text-align: center;}
+	/*.title_desc_left.other_sec .page_title {font-size: 32px; line-height: 44px; text-align: center;}*/
+	.title_desc_left.other_sec .page_title {font-size: 42px; line-height: 54px; text-align: center;}
+	/*.title_desc_left .page_title .Seaside-Groove-Regular {font-size: 48px;}*/
+	.title_desc_left .page_title .Seaside-Groove-Regular {font-size: 58px;}
+	.title_desc_left p{text-align: center; font-size: 15px;}
+	.title_desc_left .srno {font-size: 23px !important;}
+	.h148 {height: 71px; font-size: 0;}
+	/*.fwvh148 {height: calc(100vh - 71px);}*/
+	.fwvh148 {height: inherit;}
+	.fwvh148_mo {height: 100vh;}
+	.main_sec .fwp {height: 60vh;}
+	.dropdown {right: inherit; left: 50%; transform: translateX(-50%); top: inherit; bottom: 0; width: 65px; height: 65px;}
+	.dropdown:after {width: 20px; height: 20px;}
+	.other_sec {text-align: center;}
+	.links .playic {width: 25px; height: 25px; margin: -2px 6px 0 0;}
+	.links .linkname {font-size: 16px;}
+	.links .playic:after {border-width: 5px 0 5px 8px;}
+	/*.loveo {width: 29px; padding: 0 2px !important;}*/
+	.loveo {width: 34px; padding: 0 2px !important;}
+	/*.bold_bo {width: 134px;}*/
+	.bold_bo {width: 184px; margin-left: 5px;}
+	/*.ic_right_arrow {width: 96px;}*/
+	.ic_right_arrow {width: 125px;}
+	.status_quo {width: 102px; right: -48px; bottom: 2px;}
+	/*.ic_potential {margin-right: 0px; width: 29px;}*/
+	.ic_potential {margin-right: 0px; width: 37px;}
+	/*.happiness {width: 160px; right: inherit; position: inherit; bottom: inherit; margin-top: 7px;}*/
+	.happiness {width: 200px; right: inherit; position: inherit; bottom: inherit; margin-top: 7px;}
+	/*.txt_diversity {width: 144px; position: inherit; right: inherit; top: inherit; bottom: inherit; margin-top: 7px;}*/
+	.txt_diversity {width: 170px; position: inherit; right: inherit; top: inherit; bottom: inherit; margin-top: 7px;}
+	.malaria{ margin: 0; right: inherit; left: 50%; transform: translateX(-50%); width: 80px; bottom: -120px;}
+	.other_sec .pxy_mo_ygodrej {top: 8%; transform: translateX(-50%);}
+	.bg_img_godrej_symbol {width: 60%; top: inherit; transform: inherit; bottom: 2%;}
+	.bg_img_green {width: 100%; height: 260px; background:url(../images/people/why-godrej/bg_greener_mo.png) no-repeat center top; background-size: cover; top: inherit; transform: inherit; bottom: 0%;}
+
+	#join_us_profile h4 {font-size: 17px;}
+	#join_us_profile .learnmore {font-size: 15px;}
+	.mob_videos { margin-top: 0px !important; }
+
+	.lets_hear_profile { margin-bottom: 40px; }
+}
+@media (min-device-width:320px) and (max-device-width:768px) {
+    /*.status_quo {width: 102px; right: -43px; bottom: 2px;}*/
+    .status_quo {width: 120px; right: -51px; bottom: 1px;}
+    #Why_Godrej_04 .bg_img_green {height: 225px;}
+}

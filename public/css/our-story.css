@@ -1,0 +1,234 @@
+html, body { overflow-x: hidden; }
+#fullpage { overflow-x: hidden; }
+/*#heading_pages_title_nobanner .page_title {font-family: 'Avenir-Black'; font-size: 55px; line-height: 61px; margin: 0; padding: 5.3% 0 1%;}*/
+#heading_pages_title_nobanner .page_title {font-family: 'Avenir-Black'; font-size: 30px; line-height: 61px; margin: 0; padding: 38px 0px 0px 0px;}
+.topspace133 {height: 133px;}
+
+#Our_Story_Landing { background: url("../images/about/our-story/godrej-120-years-young.jpg") no-repeat center; background-size: cover; }
+
+.playic { vertical-align: middle;margin: -2px 10px 0 0; width: 35px; height: 35px; display: inline-block; border-radius: 50%; background-color: #fff; position: relative;}
+.playic:after {content: ''; position: absolute; left: 55%; top: 50%; transform: translate(-50%,-50%); width: 0; height: 0; border-style: solid; border-width: 7px 0 7px 11px; border-color: transparent transparent transparent #000;}
+
+.playic.blklight { background-color: #212120; }
+.playic.blklight:after { border-color: transparent transparent transparent #fff;}
+
+.playic.gold:after { border-color: transparent transparent transparent #b0894f;}
+.playic.voilet:after { border-color: transparent transparent transparent #8162bc;}
+.playic.blue:after { border-color: transparent transparent transparent #254d6e;}
+.playic.green:after { border-color: transparent transparent transparent #047c2c;}
+.playic.red:after { border-color: transparent transparent transparent #c52026;}
+.playic.black:after { border-color: transparent transparent transparent #23231e;}
+.playic.pink:after { border-color: transparent transparent transparent #e85b94;}
+.playic.Orchid:after { border-color: transparent transparent transparent #d8ba68;}
+.playic.dull_yellow:after { border-color: transparent transparent transparent #ada638;}
+.playic.jazz_berry:after { border-color: transparent transparent transparent #1d459a;}
+.playic.Turquoise:after { border-color: transparent transparent transparent #43a1b2;}
+.playic.Dark_cyan:after { border-color: transparent transparent transparent #00938f;}
+.playic.Hue:after { border-color: transparent transparent transparent #7fa040;}
+
+#landing_screen {
+	background: #000;
+	width: 100vw;
+	height: 100vh;
+	/*mix-blend-mode: lighten;*/
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 999;
+	opacity: 0.75;
+}
+#myVideo { position: absolute; left: 0px; top: 0px; }
+.high_zindex { z-index: 99999999; }
+
+.our_story_sliders .owl-item .fw {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.our_story_sliders .owl-item img { display: inline-block; }
+
+.color1800{background-color: #7f7f7f;}
+.color1897{background-color: #3d3d3b;}
+.color1918{background-color: #114460;}
+.color1919{background-color: #816f5a;}
+.color1921{background-color: #4f4f4f;}
+/*.color1922{background-color: #3a3866;}*/
+.color1922{background-color: #635942;}
+.color1922_1{background-color: #2D3033;}
+.color1938{background-color: #383838;}
+.color1943{background-color: #747474;}
+.color1943_1{background-color: #1d4c26;}
+.color1944{background-color: #777777;}
+.color1951{background-color: #704f38;}
+.color1952{background-color: #7D709B;}
+.color1974{background-color: #376077;}
+.color1974_1{background-color: #ce8628;}
+.color1988{background-color: #858585;}
+.color1990{background-color: #374985;}
+.color1991{background-color: #908555;}
+.color1994{background-color: #bf2828;}
+
+.color1997{background-color: #50744c;}
+.color2001{background-color: #595440;}
+.color2001_1{background-color: #9e9480;}
+.color2008{background-color: #194172;}
+.color2008_1{background-color: #b0894f;}
+.color2008_2{background-color: #4f5d72;}
+
+.color2010{background-color: #1f2636;}
+.color2010_1{background-color: #2e2e7c;}
+.color2010_2{background-color: #531b9b;}
+.color2011{background-color: #2C683D;}
+/*.color2011_1{background-color: #8162bc;}*/
+.color2011_1{background-color: #c52026;}
+.color2011_2{background-color: #c1a221;}
+.color2011_3{background-color: #ffffff;}
+.color2012_2{background-color: #e85b94;}
+.color2012_3{background-color: #271568;}
+
+.color2012{background-color: #312944;}
+.color2012_1{background-color: #56023c;}
+.color2013{background-color: #59b3b5;}
+.color2013_1{background-color: #b1292d;}
+.color2013_2{background-color: #323c55;}
+.color2014{background-color: #392142;}
+.color2015{background-color: #254d6e;}
+.color2015_1{background-color: #8d989f;}
+.color2016{background-color: #DD9328;}
+.color2016_1{background-color: #3164A5;}
+.color2017{background-color: #fff;}
+.color2017_1{background-color: #333333;}
+.color2017_2{background-color: #45bbdb;}
+.color2018{background-color: #047c2c;}
+.color2018_1{background-color: #23231e;}
+.color2018_2{background-color: #bd9e21;}
+.color2018_3{background-color: #d8ba68;}
+.color2018_4{background-color: #ada638;}
+.color2018_darling{background-color: #8162bc;}
+.color2018_5{background-color: #23231e;}
+.color2018_6{background-color: #1d459a;}
+.color2019{background-color: #c52026;}
+.color2019_1{background-color: #0f218a;}
+.color2019_2{background-color: #1725aa;}
+.color2019_4{background-color: #43a1b2;}
+.color2019_5{background-color: #00938f;}
+.color2019_6{background-color: #7fa040;}
+.color2020{background-color: #7A8FB4;}
+
+.coloryellow{background-color: #dbbf8e;}
+
+p, h2 {width: 100%; float: left;}
+
+/*#Our_Story_Landing h2, #Our_Story_Wrapper h2 {font-size: 35px; line-height: 43px; margin-bottom: 6px;}
+#Our_Story_Landing p, #Our_Story_Wrapper p { font-size: 20px; line-height: 28px; color: #fff; opacity: 0.5; margin-bottom: 0px; }
+#Our_Story_Wrapper p.blklight, #Our_Story_Wrapper h2.blklight { color: #212120 !important; }
+#Our_Story_Landing p { color: #6a6b7c; opacity: 1; line-height: 32px; margin-bottom: 38px; }*/
+
+#Our_Story_Landing .our_story_section h2, #Our_Story_Wrapper .our_story_section h2 {font-size: 35px; line-height: 43px; margin-bottom: 6px;}
+#Our_Story_Landing .our_story_section p, #Our_Story_Wrapper .our_story_section p { font-size: 20px; line-height: 28px; color: #fff; opacity: 0.5; margin-bottom: 0px; }
+#Our_Story_Wrapper .our_story_section p.blklight, #Our_Story_Wrapper .our_story_section h2.blklight { color: #212120 !important; }
+#Our_Story_Landing p { color: #6a6b7c !important; opacity: 1 !important; line-height: 32px !important; margin-bottom: 38px !important; }
+
+
+
+#down_arrow { margin-top: 100px; }
+.dropdown {width: 70px; height: 70px; display: inline-block; border:1px solid #6a6b7c; border-radius: 50%; position: relative; }
+.dropdown::after {width: 23px; height: 23px; content: ''; font-size: 0; border-style: solid; border-color: #6a6b7c; border-width: 0 1px 1px 0; padding: 4px; margin: 0; position: absolute; left: 50%; top: 44%; transform: translate(-50%,-50%) rotate(45deg);}
+
+.h64 { height: 64px; }
+
+.learnmore.blklight {color: #212120 !important; }
+.learnmore.blklight:after,.learnmore.blklight:hover:after {background: #212120;}
+
+
+.learnmore {color: #fff !important; }
+.learnmore:after,.learnmore:hover:after {background: #fff;}
+
+.bigimg img {box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.2)}
+.bigimg img.no_shadow { box-shadow: none !important; }
+
+.YearsWiseStory { display: none; overflow: hidden; height: calc(100vh - 30vh); z-index: 99999; position: fixed; left: 35px; bottom: 0px; width: 80px; }
+
+/*.YearsWiseStory:hover { overflow: auto; }*/
+
+/*.YearsWiseStory::before {background-color: rgba(0,0,0,0.1); content: ''; font-size: 0; width: 100%; height: 100%; float: left; position: absolute; left: 0; top: 0; z-index: 9;}*/
+.YearsWiseStory ul {position: relative; z-index: 999999; /*mix-blend-mode: soft-light;*/ }
+/*.YearsWiseStory li a{ font-family: 'Avenir-Light'; font-size: 70px; line-height: inherit; color: #545454;}*/
+.YearsWiseStory li a{ font-family: 'Avenir-Light'; font-size: 18px; line-height: inherit; line-height: 25px; color: #fff; margin: 5px 0px; display: block; opacity: 0.5; }
+.YearsWiseStory li a:hover, .YearsWiseStory li a.current { color: #fff; font-family: 'Avenir-Black'; font-weight: normal; opacity: 1; }
+
+.YearsWiseStory.black_years li a { color: #000 !important; }
+
+.our_story_section .learnmore { opacity: 0.5; font-family: 'Avenir-Light'; }
+
+.YearsWiseStory::-webkit-scrollbar{width:5px;background-color:#fff; }
+.YearsWiseStory::-webkit-scrollbar-thumb{background-color:#000; height: 10px; }
+.YearsWiseStory::-webkit-scrollbar-button{display:none; }
+
+.our_story_section { position: relative; min-height: 100vh; }
+/*.our_story_section .vhmin{ min-height: calc(100vh - 64px); }*/
+.our_story_section .vhmin{ min-height: inherit; }
+#Year_1800 { display: block; }
+
+.YearsWiseStory span {
+	display: inline-block;
+	content: "";
+	box-sizing: border-box;
+	height: 40px;
+	width: 40px;
+	border-style: solid;
+	border-color: #545454;
+	border-width: 0px 3px 3px 0px;
+	transform: rotate(-135deg);
+}
+
+.Link_Our_Story_Landing { display: none; }
+
+/*.scrollfix-top { margin-top: 64px; }*/
+
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.YearsWiseStory ul::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.YearsWiseStory ul {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+footer { position: relative; z-index: 99999; background: #fff; }
+
+/*Mobile*/
+@media only screen and (max-width: 768px) {
+	.topspace133 {height: 90px;}
+	#heading_pages_title_nobanner .page_title { font-size: 20px !important; line-height: 30px; padding: 0 0 0px;}
+	.YearsWiseStory {width: 100%; overflow: hidden !important; height: 60px !important; padding: 18px 15px 18px 15px; left: 0px; bottom: 20px; }
+	.YearsWiseStory ul {width: 100%; float: left; white-space: nowrap; overflow: scroll; transition: 0.2s;}
+	.YearsWiseStory li {display: inline-block; margin: 0 5px;}
+	.YearsWiseStory li a{font-size: 16px;}
+	/*#Our_Story_Landing p br, #Our_Story_Wrapper p br {display: none;}*/
+	#Our_Story_Landing .our_story_section p, #Our_Story_Wrapper .our_story_section p, #Our_Story_Landing p {font-size: 16px !important; line-height: 22px !important;}
+	#Our_Story_Landing .our_story_section h2, #Our_Story_Wrapper .our_story_section h2 {font-size: 26px; line-height: 34px; }
+	.YearsWiseStory {mix-blend-mode:inherit;}
+	.our_story_section { text-align: center; }
+	.our_story_section .fwpc { padding: 0px 5%; }
+	.bigimg { padding: 0px 15%; margin-top: 25px; margin-bottom: 20px; }
+	.bigimg.less_pd { padding: 0px 5%;}
+
+	.fwpc .h64 { display: none; }
+	.our_story_section .fwpc {
+		top: 110px;
+		transform: translate(-50%, 0%);
+	}
+
+	.our_story_sliders_dots .owl-dot, .our_story_sliders_dots_mo .owl-dot { width: 30px; }
+	.our_story_sliders_dots .owl-dot.active:after, .our_story_sliders_dots_mo .owl-dot.active:after { width: 30px; }
+
+	.up_scroll h2 { padding-top: 30px !important; }
+
+}

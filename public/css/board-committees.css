@@ -1,0 +1,57 @@
+#boardcommittee_title .page_title {font-family: 'Avenir-Black'; font-size: 55px; line-height: 61px; margin: 0; padding: 8.3% 0 1.8%;}
+.topspace133 {height: 133px;}
+
+
+.investors_desc { margin-top: 40px; }
+.investors_desc h4 {display: block; font-family: 'Avenir-Black'; font-size: 42px; line-height: 48px;}
+.investors_desc h6 {display: block; font-family: 'Avenir-Medium'; font-weight: normal; font-size: 18px; line-height: 26px; margin-top: 5px;}
+.monday8am {position: absolute; left: 30px;top: 24px; display: inline-block; width: 30%;}
+
+.file_downloaded {padding: 0 0;}
+.file_downloaded img {top: 25px; right: 15px;}
+.file_downloaded h4 { width: 100%; float: left; font-family: 'Avenir-Medium'; font-size: 24px; line-height: 32px; color: #212120; padding:28px 60px 25px 20px; font-weight: normal;}
+.file_downloaded h4 a {color: #212120; display: inline-block;}
+
+.shareholder_info h6 {font-family: 'Avenir-Medium'; font-size: 20px; line-height: inherit; padding: 30px 0; color: #a7a9ac; font-weight: normal;}
+.shareholder_info h6 a {color: #a7a9ac; display: inline-block;}
+
+#Accordions { margin: 100px 0 0 0; }
+.accorddesc {
+    display: none;
+    padding-bottom: 30px;
+}
+
+.accorddiv h3 {position: relative; padding: 25px 0; cursor: pointer; }
+.accorddiv p { color: #a7a9ac; } 
+.accorddiv p a { color: #212120; }
+
+table thead{border-bottom: 1px solid #a7a9ac;}
+.title_desc_left table thead th p {color: #212120;}
+.title_desc_left table thead th p, .title_desc_left table p {line-height: 20px; margin: 30px 0; text-align: left;}
+.title_desc_left table td, .title_desc_left table th {padding: 0 15px;}
+.title_desc_left table tr:nth-child(even) {background-color: #f7f7f7;}
+
+/*Mobile*/
+@media only screen and (max-width: 768px) {
+
+.title_desc_left table td, .title_desc_left table th {padding: 0 10px;}
+.title_desc_left table thead th p, .title_desc_left table p {font-size: 14px; line-height: 19px;}
+
+#boardcommittee_title .page_title { font-size: 36px; line-height: 40px; padding: 0 0 35px;}
+  
+.investors_desc .desc{margin: 0px 0 35px;}
+.investors_desc .desc.no_margin_mob{margin-bottom: 10px; }
+.investors_desc { margin-top: 50px; }
+.investors_desc h4 { font-size: 30px !important; line-height: 35px !important; }
+.investors_desc h6 { font-size: 13px !important; line-height: 15px !important; }
+
+.file_downloaded img {top: 50%; transform: translateY(-50%); width: 24px; right: 15px;}
+.file_downloaded h4 {font-family: 'Avenir-Medium'; font-size: 18px; line-height: 28px; color: #212120; padding:20px 55px 20px 16px;}
+.shareholder_info h6 {font-size: 16px;}
+
+.arrowupdown {right: 5px;}
+
+.accorddiv h3 {padding: 25px 40px 25px 0;}
+
+
+}

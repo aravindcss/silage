@@ -1,0 +1,97 @@
+#heading_pages_title_nobanner .page_title {font-family: 'Avenir-Black'; font-size: 55px; line-height: 61px; margin: 0; padding: 8.3% 0 1.8%;}
+.topspace133 {height: 133px;}
+
+.file_downloaded {padding: 0 0;}
+.file_downloaded img {top: 14px; right: 15px; width: 30px;}
+.file_downloaded h4 { width: 100%; float: left; font-family: 'Avenir-Medium'; font-size: 24px; line-height: 32px; color: #212120; padding:13px 60px 10px 20px; font-weight: normal;}
+.file_downloaded h4 a {color: #212120; display: inline-block;}
+
+.file_downloaded p {padding: 0 60px 0 20px; width: 100%; float: left; line-height: 26px; margin: 0px 0; font-family: 'Avenir-Medium'; color: #a7a9ac; font-weight: normal;}
+.file_downloaded p.news_text {font-size: 14px; line-height: 21px;}
+
+.Subscribe_newsletter { font-size: 24px; line-height: 32px; text-align: center; display: inline-block;  }
+.Subscribe_newsletter a{color: #000; border-bottom: 1px solid #aaaaaa; display: inline-block;}
+
+
+#Press_Releases_Signup_Form form,.form_section {padding: 0 15%; border:1px solid rgba(167,169,172,0.4);}
+.form-tag {margin: 15px 0;}
+input[type='submit'] {
+	background: #212120;
+    height: 58px;
+    border: 0px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 0px 50px;
+    border-radius: 0px;
+    -webkit-appearance: none;
+}
+input[type='text'], textarea { width: 100%; font-family: 'Avenir-Medium'; font-weight: normal; float: left; padding: 15px 20px; border:none; border-bottom: 1px solid rgba(167,169,172,0.4); font-size: 20px; line-height: inherit; color: #a7a9ac; text-align: center;}
+input[type='radio']{ width: auto; display: inline-block;float: left; }
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #a7a9ac; text-align: center;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #a7a9ac; text-align: center;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #a7a9ac; text-align: center;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #a7a9ac; text-align: center;
+}
+
+label.error {text-align: center; float: left; width: 100%; display: block; font-size: 15px; font-family: 'Avenir-Book'; padding-top: 10px; color: red; }
+
+#TDS_Certificates .forms {
+    padding: 0 15%;
+    border: 1px solid rgba(167,169,172,0.4);
+}
+
+.tds_table td, .tds_table th, .tds_table p { font-size: 14px; }
+.tds_table td, .tds_table th { padding-top: 13px !important; padding-bottom: 13px !important; vertical-align: middle !important; }
+
+.tds_download_btn {
+    background: #212120;
+    border: 0px;
+    color: #fff !important;
+    cursor: pointer;
+    padding: 5px 20px;
+    -webkit-appearance: none;
+    border-radius: 0px;
+    display: inline-block;
+    animation: glowing 1300ms infinite;
+}
+
+
+@keyframes glowing {
+    0% {
+      box-shadow: 0 0 0px #212120;
+    }
+    50% {
+      box-shadow: 0 0 8px #212120;
+    }
+    100% {
+      box-shadow: 0 0 0px #212120;
+    }
+}
+
+/*Mobile*/
+@media only screen and (max-width: 768px) {
+	#heading_pages_title_nobanner .page_title { font-size: 36px; line-height: 40px; padding: 0 0 35px;}
+	.file_downloaded img {top: 7px; width: 24px; right: 15px;}
+	.file_downloaded h4 {font-size: 18px; line-height: 28px; padding:5px 55px 5px 16px;}
+	.file_downloaded p {font-size: 14px; line-height: 21px; padding: 0 55px 0 16px;}
+	.Subscribe_newsletter { font-size: 19px; line-height: 28px; text-align: center; display: inline-block;  }
+
+	#Press_Releases_Signup_Form form,.form_section {padding: 0 10%;}
+	input[type='text'], textarea {font-size: 15px; padding: 8px 10px;}
+	input[type='submit'] {
+		height: 48px;
+		padding: 0px 40px;
+	}
+	.tds_table td { border: 1px solid #ddd !important; border-radius: 10px; padding: 0px 15px !important; margin-bottom: 20px; }
+	.tds_table td p { margin-bottom: 12px; }
+
+}

@@ -1,0 +1,80 @@
+/*Desktop*/
+.sustainability_titles {
+	font-family: 'Avenir-Book' !important;
+	font-size: 40px !important;
+	line-height: 55px !important;
+	font-weight: normal !important;
+}
+.seperator_right {
+	width: 1px;
+	height: 100%;
+	background: #a7a9ac;
+	transform: scaleX(0.5);
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+.seperator_right.left {
+	right: auto;
+	left: 0px;
+}
+
+
+.impact_box .sustainability_titles { font-size: 42px !important; }
+.impact_box .seperator { margin-top: 50px; margin-bottom: 70px; }
+.impact_box table { margin-top: 40px; }
+.impact_box table td, .impact_box table th { text-align: left; font-family: 'Avenir-Medium'; font-size: 16px; line-height: 24px; }
+.impact_box table tbody td { background: #f9f9f9; color: #a7a9ac; padding: 20px 15px 20px 30px; }
+.impact_box table tfoot td, .impact_box table tfoot th {
+	background: #79da61;
+	color: #fff;
+	padding: 26px 15px 26px 30px;
+	font-size: 22px;
+	line-height: 32px;
+}
+.impact_box table tfoot th { font-weight: normal; font-family: 'Avenir-Black'; }
+.impact_box table tr td:nth-child(2), .impact_box table tfoot th { padding-left: 15px; }
+
+
+.arrow-down-close {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  position: relative;
+  margin: 0px 0 0 16px;
+  top: 2px;
+}
+.arrow-down-close:before, .arrow-down-close:after {
+  content: '';
+  display: inline-block;
+  height: 16px;
+  width: 2px;
+  background-color: #121214;
+  position: absolute;
+  /*transition: 100ms ease-in-out transform;*/
+}
+.arrow-down-close:before { transform: rotate(-45deg); left: 2px; top: 0px;}
+.arrow-down-close:after { transform: rotate(45deg); right: 2px; top: 0px;}
+.arrow-down-close.open {margin-bottom: 10px;}
+.arrow-down-close.open:before { height: 24px; left: 50%; top: -1px; transform: translateX(-50%) rotate(-45deg);}
+.arrow-down-close.open:after { height: 24px; right: auto; left: 50%; top: -1px; transform: translateX(-50%) rotate(45deg);}
+
+.din {display: block;}
+
+/*Mobile*/
+@media only screen and (max-width: 768px) {
+	.landing_caption h2 {font-size: 13vw !important; line-height: 13vw !important;}
+	.sustainability_titles {
+		font-size: 20px !important;
+		line-height: 35px !important;
+	}
+	/*.impact_box table { display: none; }*/
+	.din {display: none;}
+	.impact_box .sustainability_titles { font-size: 20px !important; line-height: 35px !important; text-align: center; }
+	.impact_box .seperator { margin-bottom: 42px; }
+	/*.impact_box table { margin-bottom: -20px; }*/
+	.impact_box table tbody td { color: #212120; }
+	.impact_box table tbody td, .impact_box table tfoot td, .impact_box table tfoot th { padding-left: 15px; padding-right: 10px; }
+	.impact_box table tfoot td, .impact_box table tfoot th { font-size: 20px; line-height: 28px; }
+}

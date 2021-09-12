@@ -1,0 +1,28 @@
+/*HOMEPAGE*/
+#landing { min-height:100vh; }
+.slide_item { height: 100vh; }
+.banner_caption {
+	position: absolute;
+	left: 0px;
+	top: 50%;
+	width: 100%;
+	transform: translateY(-50%);
+	margin-top: 50px;
+	z-index: 9;
+}
+.banner_caption h2 { font-size: 90px !important; font-weight: normal; font-family: 'Avenir-Black' !important; line-height: 93px !important; text-shadow: 0px 0px 60px rgba(0,0,0,0.7); padding-bottom: 30px !important; }
+
+#know_us_banner { background: url(../images/about/know-us/know_us_banner.jpg) no-repeat center; background-size: cover; height: 100vh; }
+#know_us_banner-01 { background: url(../images/about/know-us/know_us_banner-01.jpg) no-repeat center; background-size: cover; height: 100vh; }
+#know_us_banner-02 { background: url(../images/about/know-us/know_us_banner-02.jpg) no-repeat center; background-size: cover; height: 100vh; }
+#know-us {padding: 90px 0 0px 0;}
+#know-us h3 { font-size: 40px !important; font-family: 'Avenir-Book'; line-height: 90px; color: #212120; margin-top: 6px;}
+/* Mobile */
+@media only screen and (max-width: 768px) {
+	#know_us_banner { background: url(../images/about/know-us/know_us_banner_mo.jpg) no-repeat center; background-size: cover; height: 100vh; }
+	#know_us_banner-01 { background: url(../images/about/know-us/know_us_banner_mo-01.jpg) no-repeat center; background-size: cover; height: 100vh; }
+	#know_us_banner-02 { background: url(../images/about/know-us/know_us_banner_mo-02.jpg) no-repeat center; background-size: cover; height: 100vh; }
+	#know-us h3 { font-size: 20px !important; line-height: 40px; font-family: 'Avenir-Book'; color: #212120;}
+	#know-us {padding: 50px 0 0px 0;}
+}
+/*Mobile

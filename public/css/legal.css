@@ -1,0 +1,14 @@
+#heading_pages_title_nobanner .page_title {font-family: 'Avenir-Black'; font-size: 55px; line-height: 61px; margin: 0; padding: 8.3% 0 1.8%;}
+.title_desc_left p {color: #a7a9ac; margin: 10px 0;}
+table tr td{ border:1px solid #a7a9ac; padding: 10px; color: #a7a9ac; line-height: 24px; }
+table{ margin: 10px 0px 10px 0px; width: 100%; }
+.topspace133 {height: 133px;}
+.columndesc ul li {padding: 0 8.33333333%; color: #a7a9ac; margin: 10px 0; font-family: 'Avenir-Book'; font-size: 16px; line-height: 32px;}
+#Legal_Notice h2 { margin: 50px 0px 0px 0px; }
+#Legal_Notice strong { font-family: 'Avenir-Black'; font-weight: normal; }
+
+/*Mobile*/
+@media only screen and (max-width: 768px) {
+	#heading_pages_title_nobanner .page_title { font-size: 36px; line-height: 40px; padding: 0 0 35px;}
+	.columndesc p {padding: 0 0;}
+}

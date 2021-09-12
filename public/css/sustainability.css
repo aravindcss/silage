@@ -1,0 +1,78 @@
+#banner_sustainability_01 {background: url(../images/sustainability/landing/Banner_Sustainability_04.jpg) no-repeat center center; background-size: cover;}
+#banner_sustainability_02 {background: url(../images/sustainability/landing/Banner_Sustainability_02.jpg) no-repeat center center; background-size: cover;}
+#banner_sustainability_03 {background: url(../images/sustainability/landing/Banner_Sustainability_03.jpg) no-repeat center center; background-size: cover;}
+#Our_Strategy { padding: 110px 0 90px 0; }
+#Our_Strategy .learnmore { margin-top: 50px; }
+#Our_Strategy .sustainability_titles, #Our_Strategy .landing_page_titles { margin-bottom: 135px; }
+.strategy_icons { max-height: 100px; margin: 0px 0 30px 0; }
+#Vision_2020 { padding: 60px 0 0 0; }
+#Vision_2020 h3.sustainability_titles { padding-bottom: 65px; }
+#Vision_2020 h2 { font-size: 90px; font-weight: normal; font-family: 'Avenir-Black'; color: #fff; text-shadow: 0px 0px 20px rgba(0,0,0,0.5); margin-bottom: 50px; }
+#Vision_2020 p { color: #fff; text-shadow: 0px 0px 20px rgba(0,0,0,0.5); font-weight: normal; }
+#Vision_2020 .learnmore { margin: 60px 0px; }
+#Did_you_know { padding: 65px 0px 100px 0px; background: #f9f9f9; margin-bottom: 120px; }
+.did_you_know_box {
+	background: #fff;
+	padding: 45px 40px 45px 40px;
+	margin: 60px 0 0 0;
+}
+.did_you_know_box h6 {
+	font-size: 30px;
+	font-weight: normal;
+	font-family: 'Avenir-Black';
+	padding-bottom: 40px;
+}
+.did_you_know_box p {
+	font-size: 18px;
+	font-weight: normal;
+	font-family: 'Avenir-Medium';
+	line-height: 32px;
+}
+.client_box { text-align: center; padding: 70px 55px; background: #f9f9f9; }
+.client_box img { max-height: 150px; }
+.client_desc { position: absolute; left: 0px; top: 0px; background: #f9f9f9; padding: 50px 20px; height: 100%; width: 100%; opacity: 0; }
+.client_desc p {
+   position: absolute;
+   left: 0px;
+   top: 50%;
+   transform: translateY(-50%);
+   padding: 0px 20px;
+}
+.client_box:hover {
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+}
+
+/*Hover Effct only in Desktop*/
+@media only screen and (min-width:768px){
+	.client_box:hover .client_desc { opacity: 1; transition: 0.3s; }
+}
+
+.client_box .arrow_client { opacity: 0; transition: 0.3s;position: absolute; right: 20px; top: 20px; }
+
+
+
+/*Mobile*/
+@media only screen and (max-width: 768px) {
+	/*.client_box:hover .arrow_client { opacity: 1 !important; }*/
+	/*.client_desc.remove_opacity, .client_box .arrow_client { opacity: 0 !important; }*/
+	#banner_sustainability_01 {background: url(../images/sustainability/landing/mobile/Banner_Sustainability_04.jpg) no-repeat center center; background-size: cover;}
+	#banner_sustainability_02 {background: url(../images/sustainability/landing/mobile/Banner_Sustainability_02.jpg) no-repeat center center; background-size: cover;}
+	#banner_sustainability_03 {background: url(../images/sustainability/landing/mobile/Banner_Sustainability_03.jpg) no-repeat center center; background-size: cover;}
+	#Our_Strategy { padding-top: 60px; padding-bottom: 40px; }
+	#Our_Strategy .sustainability_titles { margin-bottom: 45px !important; }
+	.strategy_icons { margin-bottom: 10px; margin-top: 30px; max-height: 75px; }
+	#Our_Strategy .learnmore { margin-top: 20px; }
+	#Vision_2020 { text-align: center; padding-top: 40px; }
+	#Vision_2020 h2 { font-size: 30px; line-height: 40px; margin-bottom: 0px; }
+	#Vision_2020 p { font-size: 13px !important; line-height: 22px !important; }
+	#Vision_2020 h3.sustainability_titles { padding-bottom: 40px !important; }
+	#Vision_2020 .learnmore { margin: 40px 0px 50px 0px; }
+	#Did_you_know { padding-top: 40px; padding-bottom: 50px; margin-bottom: 50px; }
+	.did_you_know_box { margin-top: 30px; }
+	.did_you_know_box h6 { font-size: 20px; padding-bottom: 20px; }
+	.did_you_know_box p { font-size: 16px; line-height: 28px; }
+	.client_box { margin-bottom: 30px; }
+	#Our_Strategy.sustainability_landing_desc .landing_page_titles { margin-bottom: 75px; }
+}

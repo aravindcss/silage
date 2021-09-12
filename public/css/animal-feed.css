@@ -1,0 +1,56 @@
+/*Desktop*/
+#banner_csr_01 {background: url(../images/businesses/animal-feed/Banner_CSR_01.jpg) no-repeat center center; background-size: cover;}
+
+.animal_page_titles{ font-family: 'Avenir-Book' !important; font-size: 30px !important; line-height: 60px !important; color: #212120 !important; font-weight: normal;}
+
+
+/*Oil-Plam*/
+#banner_oil_palm_01 {background: url(../images/businesses/oil-palm/Banner_Oil_Palm_01.jpg) no-repeat center center; background-size: cover;}
+/*Oil-Plam*/
+
+/*Crop Protection*/
+#banner_Crop_Protection_01 {background: url(../images/businesses/crop-protection/Banner_Crop_Protection_01.jpg) no-repeat center center; background-size: cover;}
+/*Crop Protection*/
+
+/*Crop Protection*/
+#banner_Godrej_Tyson_Foods_01 {background: url(../images/businesses/godrej-tyson-foods/Banner_Godrej_Tyson_Foods_01.jpg) no-repeat center center; background-size: cover;}
+/*Crop Protection*/
+
+/*ACI Godrej Agrovet*/
+#banner_ACI_Godrej_Agrovet_01 {background: url(../images/businesses/aci-godrej-agrovet/Banner_ACI_Godrej_Agrovet_01.jpg) no-repeat center center; background-size: cover;}
+/*ACI Godrej Agrovet*/
+
+/*Aqua Feed*/
+#banner_Aqua_Feed_01 {background: url(../images/businesses/aqua-feed/Banner_Aqua_Feed_01.jpg) no-repeat center center; background-size: cover;}
+/*Aqua Feed*/
+.business_item span{text-align: center !important; display: inline-block; font-size: 13px; line-height: 18px; font-family: 'Avenir-Book' !important; margin-top: 10px; padding: 10px;}
+/*Mobile*/
+@media only screen and (max-width: 768px) {
+	#banner_csr_01 {background: url(../images/businesses/animal-feed/mobile/Banner_CSR_01.jpg) no-repeat center center; background-size: cover;}
+	#banner_csr_02 {background: url(../images/businesses/animal-feed/mobile/Banner_CSR_02.html) no-repeat center center; background-size: cover;}
+	#banner_csr_03 {background: url(../images/businesses/animal-feed/mobile/Banner_CSR_03.html) no-repeat center center; background-size: cover;}
+.business_item span{font-size: 12px !important; }
+.initiatives_desc{padding: 0px;}
+.animal_page_titles{line-height: 40px !important; font-size: 24px !important;}
+	
+/*Oil-Plam*/
+#banner_oil_palm_01 {background: url(../images/businesses/oil-palm/mobile/Banner_Oil_Palm_01.jpg) no-repeat center center; background-size: cover;}
+/*Oil-Plam*/
+
+/*Crop Protection*/
+#banner_Crop_Protection_01 {background: url(../images/businesses/crop-protection/mobile/Banner_Crop_Protection_01.jpg) no-repeat center center; background-size: cover;}
+/*Crop Protection*/
+
+/*Crop Protection*/
+#banner_Godrej_Tyson_Foods_01 {background: url(../images/businesses/godrej-tyson-foods/mobile/Banner_Godrej_Tyson_Foods_01.jpg) no-repeat center center; background-size: cover;}
+/*Crop Protection*/
+
+/*ACI Godrej Agrovet*/
+#banner_ACI_Godrej_Agrovet_01 {background: url(../images/businesses/aci-godrej-agrovet/mobile/Banner_ACI_Godrej_Agrovet_01.jpg) no-repeat center center; background-size: cover;}
+/*ACI Godrej Agrovet*/
+
+/*Aqua Feed*/
+#banner_Aqua_Feed_01 {background: url(../images/businesses/aqua-feed/mobile/Banner_Aqua_Feed_01.jpg) no-repeat center center; background-size: cover;}
+/*Aqua Feed*/
+
+}

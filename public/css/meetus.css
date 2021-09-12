@@ -1,0 +1,96 @@
+#Meet_Us_banner .landing_caption { margin-top: 74px;}
+#meetus_people .desc h3 {font-size: 1.6vw; line-height: 1.8vw; color: #212120; font-family: 'Avenir-Black'; font-weight: normal;}
+#meetus_people .desc h4 {font-size: 2.1vw; line-height: 2.2vw; color: #212120; font-family: 'Seaside-Groove-Regular'; font-weight: normal; margin-top: 4px;}
+#meetus_people .desc h4 span {display: inline; font-family: 'Anaheim';}
+#meetus_people .social .in { width: 33px; height: 33px; background-position: -30px -105px; background-size: 136px; margin: 6px 0 0; float: none;}
+.hoverdesc .din {padding: 5% 10%; z-index: 99999;}
+.hoverdesc .overflow span {display: none; background: rgba(255,251,92,0.9); position: absolute; left: 50%; top: 50%; width: 110%; height: 110%; content: ''; z-index: 999; transform: translate(-50%,-50%);}
+/*.hoverdesc p {font-family: 'Avenir-Medium'; font-size: 0.98vw; line-height: 1.3vw; color: #212120; width: 100%; float: left; padding: 10px 0;}*/
+.hoverdesc p {font-family: 'Avenir-Medium'; /*font-size: 0.98vw; line-height: 1.3vw;*/ color: #212120; width: 100%; float: left; padding: 10px 0; position: relative; top: 50%;transform: translateY(-50%);}
+.hoverdesc a:hover .overflow span, .hoverdesc a:hover .din {display: block; transition: 2s; }
+#meetus_people .hoverdesc {margin: 15px 0;}
+#meetus_people .Neeraj .pxy{top: 18%; transform: translateX(-50%);}
+/*.arrow_01 img {display: inline-block; width: 40%; position: absolute; left: -33%; top: 17%; z-index: 9999999;}*/
+.arrow_01 img, #arrow_pankaj {display: inline-block; width: 40%; position: absolute; left: -30%; top: 0%; z-index: 9999999;}
+.arrow_02 img, #arrow_subha {display: inline-block; width: auto; height: 35%;  position: absolute; left: 0%; bottom: -16%; z-index: 9999999;}
+.arrow_03 img, #arrow_sameer {display: inline-block; width: 26%; position: absolute; left: -15%; top: 4%; z-index: 9999999;}
+.arrow_05 img, #arrow_vandana {display: inline-block; width: 30%; position: absolute; left: -21%; bottom: -5%; z-index: 9999999;}
+.arrow_06 img, #arrow_neeraj, #arrow_sunder, #arrow_trupti {display: inline-block; width: 35%; position: absolute; right: -26%; bottom: 7%; z-index: 9999999;}
+.arrow_04 img, #arrow_kusumawati {display: inline-block; height: 29%; position: absolute; right: -10%; top: -16%; z-index: 9999999; transform: rotate(180deg); }
+.arrow_07 img, #arrow_somasree {display: inline-block; width: 26%; position: absolute; left: -17%; top: -6%; z-index: 9999999;}
+/*.arrow_09 img, #arrow_basuki {display: inline-block; height: 29%; position: absolute; right: -20%; bottom: -20%; z-index: 9999999;}*/
+.arrow_09 img, #arrow_basuki {
+    display: inline-block;
+    height: 22%;
+    position: absolute;
+    /*left: -47%;*/
+    left: 55%;
+    /*bottom: -5%;*/
+    bottom: -15%;
+    z-index: 9999999;
+    /*transform: rotate(90deg);*/
+}
+.arrow_08 img, #arrow_thomas {display: inline-block; width: 35%; position: absolute; left: -28%; top: 2%; z-index: 9999999;}
+.mg15 {margin: 15px 0;}
+
+
+#join_us_profile .col-md-2 {width: 20%; float: left; padding: 0;}
+#join_us_profile h4 {font-family: 'Avenir-Medium'; font-weight: normal; font-size: 40px; line-height: inherit; color: #fff; margin-bottom: 5%; text-shadow: 0 0 15px rgba(0,0,0,0.4)} 
+#join_us_profile a {color: #fff;}
+#join_us_profile .learnmore:after {background: #fff;}
+#join_us_profile .bg_op_grey {background: rgba(18,18,20,0.3); height: 100%; width: 100%; z-index: 99; content: ''; float: left; position: absolute; left: 0; top: 0;}
+
+#arrow_trupti {
+    left: -50px !important;
+    transform: rotate(185deg) !important;
+    bottom: -45px !important;
+}
+
+/*Mobile*/
+@media only screen and (max-width: 768px) {
+body, html { overflow-x: hidden; }
+#meetus_people .desc h3 {
+	font-size: 4.1vw;
+	line-height: 5vw;
+}
+#meetus_people .desc h4 {
+	font-size: 5.2vw;
+	line-height: 5.4vw;
+}
+#meetus_people .pdr .social { position: absolute; left:15px; bottom: 15px; margin: 0;}
+#meetus_people .pdl .social { position: absolute; right: 15px; bottom: 15px; margin: 0;}
+#Meet_Us_banner .landing_caption { margin-top: 10px; }
+.meetus_mob_row { padding: 10px 0px; }
+#meetus_people .social .in {width: 38px; height: 38px; background-size: 160px; background-position: -36px -42px;}
+#meetus_people .learnmore {font-size: 13px;}
+/*.meetus_desc_mobile {background: rgba(255,251,92,0.9); padding: 50px 30px; position: fixed; left: 20px; top: 20px; width: calc(100% - 40px); height: calc(100% - 40px); float: left; z-index: 999999999;}*/
+.meetus_desc_mobile {background: rgba(255,251,92,0.9); padding: 50px 30px; position: fixed; left: 20px; top: 50%; transform: translateY(-50%); width: calc(100% - 40px); height: 50%; float: left; z-index: 999999999;}
+/*.meetus_desc_mobile p {font-family: 'Avenir-Medium'; font-size: 13px; line-height: 25px; color: #212120; padding: 10px 0;}*/
+.meetus_desc_mobile p {font-family: 'Avenir-Medium'; font-size: 13px; line-height: 25px; color: #212120; padding: 10px 0; width: 83%; position: absolute; top: 50%; transform: translateY(-50%);}
+.close_btn_desc {display: inline-block; width: 24px; height: 24px; font-size: 0; position: absolute; right: 15px; top: 15px;}
+.close_btn_desc::before, .close_btn_desc:after {width: 24px; height: 2px; font-size: 0; background: #000; display: inline-block; content: ''; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%) rotate(45deg);}
+.close_btn_desc:after {transform: translate(-50%, -50%) rotate(-45deg);}
+.arrow_01 div {left: -15%; top: -5%; z-index: 999; width: 40%; }
+.arrow_02 {transform: rotate(45deg); position: absolute; right: 5%; top: 14%; z-index: 999;}
+/*.arrow_01 div,.arrow_02 div, .arrow_03 div, .arrow_04 div, .arrow_05 div, .arrow_06 div, .arrow_07 div, .arrow_08 div, .arrow_09 div {position: inherit; display: inline-block; left: auto; right: auto; top: auto; transform: auto; bottom: auto; width: 21px; z-index: 999;}*/
+.arrow_01 div,.arrow_02 div, .arrow_03 div, .arrow_04 div, .arrow_05 div, .arrow_06 div, .arrow_07 div, .arrow_08 div, .arrow_09 div { position: absolute; z-index: 999;}
+.arrow_02 div { width: 60px; }
+.arrow_03 div { width: 65px; }
+.arrow_04 div { width: 52px; }
+.arrow_05 div { width: 60px; }
+.arrow_06 div { width: 60px; }
+.arrow_07 div { width: 60px; }
+.arrow_09 div { width: 60px; }
+.arrow_08 div { width: 60px; }
+.arrow_03 {position: absolute; left: -20%; top: 2%; z-index: 999;}
+.arrow_04 {transform: rotate(90deg); position: absolute; right: -14%; top: 16%; z-index: 999;}
+.arrow_05 {position: absolute; left: -30%; bottom: 22%; z-index: 999;}
+.arrow_06 {position: absolute; right: 20%; bottom: 51%; z-index: 999;}
+.arrow_07 {position: absolute; left: -18%; top: -2%; z-index: 999;}
+.arrow_09 {position: absolute; right: 20%; top: 25%; z-index: 999; transform: rotate(-90deg);}
+.arrow_08 {position: absolute; left: -15%; top: 0%; z-index: 999;}
+
+
+
+
+}

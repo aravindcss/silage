@@ -1,0 +1,176 @@
+#Leadership_Top .page_title {font-family: 'Avenir-Black'; font-size: 55px; line-height: 61px; margin: 0; padding: 8.3% 0 1.8%;}
+.topspace133 {height: 133px;}
+#Leadership_Us_banner .landing_caption { margin-top: 74px;}
+#Leadership_Team .palt {left: calc(100% - 30px); top: 35px; background-color: #fff; padding: 20px 30px;}
+#Leadership_Team .part {right: calc(100% - 30px); top: 35px; background-color: #fff; padding: 20px 30px; text-align: right;}
+
+#Leadership_Team .social .in { width: 33px; height: 33px; background-position: -30px -105px; background-size: 136px; margin: 6px 0 0; float: none;}
+.leaders .fwpy { background-color: rgba(255,255,255,0.7); transition: 0.3s; padding: 30px 40px; left: 0 !important; transform: inherit;}
+/*.leaders .fwpy p {font-size: 13px; line-height: 21px;}*/
+
+/*.leaders:hover .din{display: block; transition: 0.5s;}*/
+
+#Leadership_Team h4 {font-size: 18px; line-height: 24px; color: #222220; font-family: 'Avenir-Black'}
+
+.designation { line-height: 22px !important; padding-top: 3px !important; padding-bottom: 3px !important; }
+
+.fush_to_top { margin-top: -31.1%; }
+.fush_to_top.extra { margin-top: -31.7%; }
+.leadership_desc {
+	padding: 0px 0px 0px 15px;
+	display: none;
+	margin-top: -27%;
+}
+
+.leadership_desc .col-md-6 { width: 51.1% !important; }
+.leadership_desc img { opacity: 0; }
+.leadership_half_img { max-height: 200px !important; }
+
+
+.leadership_desc.bigger { margin-top: -32%; }
+.leadership_desc.bigger .leadership_half_img { max-height: 300px !important; }
+
+.leadership_desc p {
+	color: #a7a9ac;
+	padding-bottom: 15px;
+}
+
+.leadership_desc ul {padding: 0px 0 10px 0px; width: 100%; float: left;}
+.leadership_desc ul p {padding: 3px 0;}
+
+#Naveen_Gupta.leadership_desc { margin-top: -29%; }
+#Omar_Momin.leadership_desc { margin-top: -25%; }
+#Akhil_Chandra.leadership_desc { margin-top: -29%; }
+#Anand_Rangaswamy.leadership_desc { margin-top: -25%; }
+#Sunil_Kataria.leadership_desc { margin-top: -30%; }
+#Dr_Sunder_Mahadevan.leadership_desc { margin-top: -26%; }
+#V_Srinivasan.leadership_desc { margin-top: -28.5%; }
+#Rahul_Gama.leadership_desc { margin-top: -25.5%; }
+#Darshan_Gandhi.leadership_desc { margin-top: -29%; }
+#Jishnu_Batabyal.leadership_desc { margin-top: -25.5%; }
+#Anirban_Banerjee.leadership_desc { margin-top: -30%; }
+
+
+
+.leader_desktop .learnmore { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); }
+.leader_desktop .desc { cursor: pointer; }
+
+.leader_desktop.opened:hover .desc { display: none; }
+.leader_desktop.opened .desc { display: none; }
+
+
+.arrow-down-close {
+  width: 30px;
+  height: 20px;
+  display: block;
+  cursor: pointer;
+  float: left;
+}
+.arrow-down-close:before, .arrow-down-close:after {
+  content: '';
+  display: inline-block;
+  height: 28px;
+  width: 3px;
+  background-color: #121214;
+  border-radius: 2px;
+  position: relative;
+  transition: 100ms ease-in-out transform;
+}
+.arrow-down-close:before {
+  transform: rotate(-45deg);
+  left: 6px;
+  top: 0px;
+}
+.arrow-down-close:after {
+  transform: rotate(45deg);
+  left: 16px;
+  top: 0px;
+}
+.arrow-down-close.open:before {
+  transform: translateX(7px) rotate(-45deg);
+  height: 28px;
+}
+.arrow-down-close.open:after {
+  transform: translateX(-6px) rotate(45deg);
+  height: 28px;
+}
+
+/*Mobile*/
+@media only screen and (max-width: 768px) {
+	#Leadership_Top .page_title {
+		font-size: 36px;
+		line-height: 40px;
+		padding: 0 0 35px;
+	}
+
+	#Leadership_Us_banner .landing_caption { margin-top: 10px;}
+	#Leadership_Team .leaders { margin-bottom: 20px; }
+	#Leadership_Team .left .leaders {margin-left: 0%;}
+	#Leadership_Team .right .leaders {margin-left: 0%;}
+	#Leadership_Team .left .palt, #Leadership_Team .part { left: -15px; padding: 10px 15px; text-align: left; top: 25px; }
+	#Leadership_Team .left .palt { padding-right: 0px !important; }
+	#Leadership_Team .right .palt { padding-left: 0px !important; }
+	#Leadership_Team .right .palt { left: auto; right: -15px; padding: 10px 15px; text-align: right;}
+	#Leadership_Team .palt { width: calc(100% + 15px); }
+	#Leadership_Team .part .social, #Leadership_Team .palt .social {display: none;}
+	#Leadership_Team h4 {font-size: 12px; line-height: 16px;}
+	#Leadership_Team p {font-size: 12px; line-height: 16px; color: #a7a9ac;}
+	#Leadership_Team .social_mo { width: auto; }
+	#Leadership_Team .left .social_mo {left: 0; top: auto; bottom: 20px; height: auto; background-color: transparent; padding: 10px;}
+	#Leadership_Team .right .social_mo {right: 0; top: auto; bottom: 0; height: auto; background-color: transparent; padding: 10px;}
+	#Leadership_Team .social_mo.right_ic { left: auto; right: 10px }
+	#Leadership_Team .left .social_mo .in {background-position: -30px -36px}
+	#Leadership_Team .right .social_mo .in {background-position: -30px -36px}
+	.h10m {height: 10px;}
+	.h50m {height: 50px;}
+
+	.arrow-down-close {
+	  width: 30px;
+	  height: 20px;
+	  display: block;
+	  position: absolute;
+	  right: 0px;
+	  top: 0px !important;
+	}
+	.arrow-down-close:before, .arrow-down-close:after {
+	  content: '';
+	  display: inline-block;
+	  height: 20px;
+	  width: 3px;
+	  background-color: #121214;
+	  border-radius: 2px;
+	  position: relative;
+	  transition: 100ms ease-in-out transform;
+	}
+	.arrow-down-close:before {
+	  transform: rotate(-45deg);
+	  left: 6px;
+	  top: 0px;
+	}
+	.arrow-down-close:after {
+	  transform: rotate(45deg);
+	  left: 16px;
+	  top: 0px;
+	}
+	.arrow-down-close.open:before {
+	  transform: translateX(7px) rotate(-45deg);
+	  height: 25px;
+	}
+	.arrow-down-close.open:after {
+	  transform: translateX(-6px) rotate(45deg);
+	  height: 25px;
+	}
+
+	/*.leaders .desc, .leaders:hover .din {display: none;}*/
+	#Leadership_Team .desc { padding: 30px 0px 30px 0px; }
+	#Leadership_Team .desc p { /*color: #212120;*/ padding: 10px 0px; font-size: 13px; line-height: 18px; }
+	.mob_desc { display: none; }
+
+	#Leadership_Team .desc li { float: left; width: 100%; }
+	#Leadership_Team .desc li p span:last-child {width: calc(100% - 15px); float: left;}
+	#Leadership_Team .desc li p span:first-child {width: 15px; float: left;}
+	#Leadership_Team .desc li p span:first-child::after {content: ''; width: 5px; height: 5px; border-radius: 50%; background: #a7a9ac; display: inline-block; font-size: 0; float: left; position: absolute; left: 0; top: 50%; transform: translateY(-50%);}
+	#Leadership_Team .desc li p span {position: relative;}
+	#Leadership_Team .desc li p span strong {font-family: 'Avenir-Black'; font-weight: normal; }
+
+}

@@ -1,0 +1,80 @@
+#unclaimed_dividend_title .page_title {font-family: 'Avenir-Black'; font-size: 55px; line-height: 61px; margin: 0; padding: 8.3% 0 1.8%;}
+.topspace133 {height: 133px;}
+
+.unclaimed_dividend_search_btn input { position: relative; padding: 0 40px; width: 100%; float: left; height: 90px; border:0; border-bottom:1px solid #a6a8ab; font-size: 17px; font-family: 'Avenir-Book'; line-height: inherit; text-align: center; color: #a7a9ac;}
+.unclaimed_dividend_search_btn .search_btn, .unclaimed_dividend_search_btn input[type="submit"] {
+	/*width: 26px; height: 26px; display: inline-block; position: absolute; right: 15px; top: 50%; transform: translateY(-50%);*/
+
+	font-size: 0px;
+	width: 26px;
+	height: 26px;
+	display: inline-block;
+	position: absolute;
+	right: 15px;
+	top: 32px;
+	border: 0px !important;
+	background: transparent;
+	cursor: pointer;
+	padding: 0px !important;
+}
+
+#frmUnclaimedDividend label.error {float: left; width: 100%; display: block; font-size: 15px; font-family: 'Avenir-Book'; padding-top: 10px; color: red; }
+#frmUnclaimedDividend p a { color: #212120; }
+#dividend_details h6 { font-weight: normal; color: red; text-align: center; }
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #a7a9ac;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #a7a9ac;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #a7a9ac;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #a7a9ac;
+}
+
+.div_border{ border: 1px solid #E0E0E0; padding: 10px; margin: 0; }
+#dividend_details strong { font-weight: normal; }
+#dividend_details table {
+	border-collapse: collapse;
+	width: 100%;  
+	border: 1px solid #E0E0E0;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+#dividend_details table td, #dividend_details table th, #dividend_details table tr {
+	padding: 10px;
+	font-size: 14px;
+	line-height: 20px;
+}
+#dividend_details table td{ color: #a7a9ac !important; }
+#dividend_details table tr:nth-child(even){background-color: #f1f1f2;}
+#dividend_details table th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #f1f1f2;
+	color: #212120;
+	font-family: 'Avenir-Medium' !important;
+	font-weight: normal;
+}
+.normal_font {
+	padding: 8px 0px;
+	line-height: 24px;
+	color: #a7a9ac !important;
+}
+.normal_font a { color: #212120; }
+.small{ font-size: 13px; line-height: 18px; }
+.list_of_shareholders { color: #212120; margin-top: 25px !important; display: block; line-height: 22px; }
+.list_of_shareholders.dis_inl { display: inline-block !important; }
+
+/*Mobile*/
+@media only screen and (max-width: 768px) {
+.unclaimed_dividend_search_btn .search_btn, .unclaimed_dividend_search_btn input[type="submit"]{ top: 20px !important; }
+#unclaimed_dividend_title .page_title { font-size: 36px; line-height: 40px; padding: 0 0 35px;}
+.unclaimed_dividend_search_btn input {font-size: 14px; line-height: inherit; height: 60px;}
+.unclaimed_dividend_search_btn .search_btn {width: 16px; height: 16px;}
+
+}

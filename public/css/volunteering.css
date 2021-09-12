@@ -1,0 +1,29 @@
+/*Desktop*/
+#banner_volunteering_india_01 {background: url(../images/sustainability/volunteering/Banner_Volunteering_India_01.jpg) no-repeat center center; background-size: cover;}
+#banner_volunteering_india_02 {background: url(../images/sustainability/volunteering/Banner_Volunteering_India_02.jpg) no-repeat center center; background-size: cover;}
+#banner_volunteering_india_03 {background: url(../images/sustainability/volunteering/Banner_Volunteering_India_04.jpg) no-repeat center center; background-size: cover;}
+#banner_volunteering_01 {background: url(../images/sustainability/volunteering/Banner_Volunteering_01.jpg) no-repeat center center; background-size: cover;}
+#banner_volunteering_02 {background: url(../images/sustainability/volunteering/Banner_Volunteering_02.jpg) no-repeat center center; background-size: cover;}
+#banner_volunteering_03 {background: url(../images/sustainability/volunteering/Banner_Volunteering_03.jpg) no-repeat center center; background-size: cover;}
+#Volunteering { margin-top: 110px; }
+#Volunteering .inside_page_titles { padding-bottom: 50px }
+h3.sustainability_titles { padding-bottom: 50px; }
+h4.sustainability_titles { font-size: 26px !important; line-height: 35px !important; }
+.sustainability_titles.singleLine { margin-top: 17px; margin-bottom: 37px; }
+#Volunteering .title_desc_left p { margin-top: 20px !important; }
+.volunteering_box { padding-top: 50px; }
+
+/*Mobile*/
+@media only screen and (max-width: 768px) {
+	#banner_volunteering_india_01 {background: url(../images/sustainability/volunteering/mobile/Banner_Volunteering_India_02.jpg) no-repeat center center; background-size: cover;}
+	#banner_volunteering_india_02 {background: url(../images/sustainability/volunteering/mobile/Banner_Volunteering_India_01.jpg) no-repeat center center; background-size: cover;}
+	#banner_volunteering_india_03 {background: url(../images/sustainability/volunteering/mobile/Banner_Volunteering_India_03.jpg) no-repeat center center; background-size: cover;}
+	#banner_volunteering_01 {background: url(../images/sustainability/volunteering/mobile/Banner_Volunteering_01.jpg) no-repeat center center; background-size: cover;}
+	#banner_volunteering_02 {background: url(../images/sustainability/volunteering/mobile/Banner_Volunteering_02.jpg) no-repeat center center; background-size: cover;}
+	#banner_volunteering_03 {background: url(../images/sustainability/volunteering/mobile/Banner_Volunteering_03.jpg) no-repeat center center; background-size: cover;}
+	h4.sustainability_titles { font-size: 20px !important; line-height: 30px !important; }
+	#Volunteering { margin-top: 60px; }
+	h3.sustainability_titles, #Volunteering .inside_page_titles { padding-bottom: 25px; }
+	.sustainability_titles.singleLine { margin: 0px !important; }
+	.volunteering_box { padding-top: 30px; }
+}

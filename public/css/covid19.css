@@ -1,0 +1,48 @@
+#banner_covid_01 {background: url(../images/sustainability/covid-19/banner_01.jpg) no-repeat center center; background-size: cover;}
+#banner_covid_02 {background: url(../images/sustainability/covid-19/banner_02.jpg) no-repeat center center; background-size: cover;}
+#banner_covid_03 {background: url(../images/sustainability/covid-19/banner_03.jpg) no-repeat center center; background-size: cover;}
+
+/*Mobile*/
+@media only screen and (max-width: 768px) {
+	#banner_covid_01 {background: url(../images/sustainability/covid-19/mobile/banner_01.jpg) no-repeat center center; background-size: cover;}
+	#banner_covid_02 {background: url(../images/sustainability/covid-19/mobile/banner_02.jpg) no-repeat center center; background-size: cover;}
+	#banner_covid_03 {background: url(../images/sustainability/covid-19/mobile/banner_03.jpg) no-repeat center center; background-size: cover;}
+	
+}
+
+#Our_Strategy{padding: 90px 0 120px 0;}
+.tabs .link_img a{color: #a7a9ac; display: inline-block; padding: 20px 3px 12px 3px; text-align: left; line-height: 22px; border-bottom: 2px solid #a7a9ac;}
+.tabs .link_img{display: block;float: left; width: 20%; text-align: center;}
+/*.tabs_flex{display: flex; justify-content: space-around;}*/
+.Avenir_Black{font-family:  Avenir_Black;}
+.tabs .link_img a.active{color: #212120; border-bottom: 2px solid #212120;}
+.title h2{position: absolute; font-size: 50px; color: #212120; line-height: 60px; left: 195px; top: 50px;}
+.country h4{font-size: 25px; margin-bottom: 25px; line-height: 32px;}
+.country p{font-size: 14px; margin-bottom: 20px; color: #a7a9ac;}
+.no_img_content{margin: 100px 0px 0px 0px !important;}
+.full_desc{margin: 112px 0px 0px 0px !important;}
+
+
+.news_slider .news_item { width: 65.85vw; }
+.news_slider .news_item.only_text { width: 45vw; }
+
+/*Mobile*/
+@media only screen and (max-width: 768px) {
+	.tabs .link_img a{padding: 20px 27px;}
+	.tabs .link_img a{border-bottom:none;}
+	.tab{ border-bottom: 2px solid #a7a9ac;}
+	.title h2{font-size: 20px; line-height: 25px; left: 30px; top: 0px;}
+	.country h4{font-size: 18px; margin-bottom: 20px; margin-top: 10px; line-height: 0px;}
+	.country p{font-size: 12px; margin-bottom: 10px;}
+	.tabs .link_img a.active{margin-bottom: -5px;}
+	#Our_Strategy{padding: 90px 0 70px 0;}
+	.news_slider h3 { padding-left: 15px !important; padding-right: 15px !important; }
+	.news_slider .full_desc { margin-top: 0px !important; }
+	.news_slider .full_desc p { margin-top: 0px !important; padding: 0px 15px 15px 15px !important; }
+	.news_slider .full_desc { border-top: 1px solid #e9e9ea; }
+	.news_slider p  { margin-top: 0px !important; }
+
+	.news_slider .news_item { width: 100%; }
+	.news_slider .news_item.only_text { width: 100%; }
+
+}
