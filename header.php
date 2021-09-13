@@ -128,9 +128,10 @@
 							</li>
 							<li class="has_sub_menu">
 								<a href="careers.php" data-title="Careers" >Careers</a>
-								
 							</li>
-							
+							<li class="has_sub_menu">
+								<a href="animal-feed.php" data-title="Careers" >Buy Now</a>
+							</li>
 						</ul>
 						</nav>
 					</div>

@@ -11,7 +11,7 @@
 <!-- Mirrored from www.godrejagrovet.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Sep 2021 09:48:59 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
-    <title>Godrej | Agrovet - A diversified agri-business company</title>
+    <title>Nutri Corn Silage</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 	<meta name="format-detection" content="telephone=no">
@@ -45,6 +45,19 @@
     </script>
 	<style type="text/css">
 		/*.menu ul li ul:after { background: #3fafaa; }*/
+		.db{
+			background: green;
+			padding: 1em;
+			border-radius: 20px;
+			/*margin-top: -100em;*/
+			color: white;
+		}
+		@media only screen and (max-width: 430px)
+		{
+			.db1{
+				display: none;
+			}
+		}
 	</style>
 
     
@@ -75,10 +88,15 @@
 
 	<div class="banner_caption txc">
 		<h2 class="white animated fadeInUp mt-4">Helping feed <br>to dairy farmers</h2>
+		
 		<a href="javascript:void(0);" class="play_video_popup animated fadeInUp" data-youtube="PyvynQPm2Wo">
 			<div class="videoplayic fwp">&nbsp;</div>
 		</a>
+	<div style="margin-top: -40px;margin-left: 8em;" class="fw hidden-sm db1">
+		<a href="#" download class="db">Download Brocher</a>
 	</div>
+	</div>
+	
 </section>
 
 <section id="goodness_home" class="title_desc_left">
