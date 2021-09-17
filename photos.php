@@ -39,7 +39,6 @@
             ga('send', 'pageview');
         }
     </script>
-
     
     <script type="text/javascript">
         var site_url = "index.php";
@@ -55,40 +54,40 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-3 col-md-4 col-sm-6 col-12 box">
-            <img src="public/IMG-20210325-WA0002.jpg" width="300" height="300" style="margin-right: 2px;">
+            <img src="public/IMG-20210325-WA0002.jpg" width="200" height="200" style="margin-right: 2px;">
         </div>
           <div class="col-lg-3 col-md-4 col-sm-6 col-12 box">
-            <img src="public/IMG-20210325-WA0004.jpg" width="300" height="300">
+            <img src="public/IMG-20210325-WA0004.jpg" width="200" height="200">
         </div>
           <div class="col-lg-3 col-md-4 col-sm-6 col-12 box">
-            <img src="public/IMG-20210325-WA0006.jpg" width="300" height="300">
+            <img src="public/IMG-20210325-WA0006.jpg" width="200" height="200">
         </div>
           <div class="col-lg-3 col-md-4 col-sm-6 col-12 box">
-            <img src="public/IMG-20210325-WA0011.jpg" width="300" height="300">
+            <img src="public/IMG-20210325-WA0011.jpg" width="200" height="200">
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 col-12 box" style="margin-top: 10px;">
-            <img src="public/IMG-20210325-WA0032.jpg" width="300" height="300">
+            <img src="public/IMG-20210325-WA0032.jpg" width="200" height="200">
         </div>
           <div class="col-lg-3 col-md-4 col-sm-6 col-12 box" style="margin-top: 10px;">
-            <img src="public/IMG-20210325-WA0030.jpg" width="300" height="300">
+            <img src="public/IMG-20210325-WA0030.jpg" width="200" height="200">
         </div>
           <div class="col-lg-3 col-md-4 col-sm-6 col-12 box" style="margin-top: 10px;">
-            <img src="public/IMG-20210325-WA0028.jpg" width="300" height="300">
+            <img src="public/IMG-20210325-WA0028.jpg" width="200" height="200">
+        </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12 box" style="margin-top: 10p0x;">
+            <img src="public/IMG-20210325-WA0023.jpg" width="200" height="200">
         </div>
           <div class="col-lg-3 col-md-4 col-sm-6 col-12 box" style="margin-top: 10px;">
-            <img src="public/IMG-20210325-WA0023.jpg" width="300" height="300">
+            <img src="public/IMG-20210325-WA0025.jpg" width="200" height="200">
         </div>
           <div class="col-lg-3 col-md-4 col-sm-6 col-12 box" style="margin-top: 10px;">
-            <img src="public/IMG-20210325-WA0025.jpg" width="300" height="300">
+            <img src="public/IMG-20210324-WA0069.jpg" width="200" height="200">
         </div>
           <div class="col-lg-3 col-md-4 col-sm-6 col-12 box" style="margin-top: 10px;">
-            <img src="public/IMG-20210324-WA0069.jpg" width="300" height="300">
+            <img src="public/IMG-20210324-WA0056.jpg" width="200" height="200">
         </div>
           <div class="col-lg-3 col-md-4 col-sm-6 col-12 box" style="margin-top: 10px;">
-            <img src="public/IMG-20210324-WA0056.jpg" width="300" height="300">
-        </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 col-12 box" style="margin-top: 10px;">
-            <img src="public/IMG-20210325-WA0037.jpg" width="300" height="300">
+            <img src="public/IMG-20210325-WA0037.jpg" width="200" height="200">
         </div>
     </div>
 </div>

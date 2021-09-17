@@ -59,7 +59,7 @@ text-align: center;
 					<p class="blk60" style="text-align: justify;"><b>Lakkavaram Silage Fodder Pvt. Ltd.</b> established in the year of 2014, is getting recognized amongst different markets owing to our enthusiastic approach towards occupation. We are a highly innovative company which deals with Corn Silage, this product is very useful for the Dairy industry to address fodder scarcity issues for Animals.</p>
 				</div>
 			</div>			
-			<div class="col-md-2 col-md-offset-1">
+			<div class="col-lg-3 col-md-2 col-md-offset-1">
 				<div class="fw footermenu">
 					<h6>Quick Links</h6>
 					<ul>
@@ -86,7 +86,7 @@ text-align: center;
 					<!-- <a href="#" class="fa fa-skype"></a>  -->
 				</div>
 			</div>
-			<div class="col-md-4 col-md-offset-1 col-xs-12 col-xs-offset-0">
+			<div class="col-lg-3 col-md-4 col-md-offset-1 col-xs-12 col-xs-offset-0">
 				<div class="fw">
 					<h6>Office Address</h6>
 					<p class="blk60">Plot no : 1-115/VDM, Flot no: 402,
@@ -95,17 +95,23 @@ text-align: center;
 					<br>Telanagana - 500049 India</p>
 					<p class="blk60">Phone &nbsp;9176378944
 					<br>Toll Free &nbsp;1&nbsp;800&nbsp;102&nbsp;2386</p>
-					<p class="blk60"><a href="mailto:gavlho@godrejagrovet.com">Email - info@nutricornsilage.com</a></p>
+					<p class="blk60"><a href="mailto:info@nutricornsilage.com">Email - info@nutricornsilage.com</a></p>
 					<!-- <p>
 						<a href="mailto:gcplcommunication@godrejcp.com" class="blk60">gcplcommunication@godrejcp.com</a>
 					</p> -->
 				</div>
+				<div class="fw">
+					<?php include('test.php');?>
+				</div>
 			</div>
+			
 		</div>
 	</div>
 	</div>
 	
-	
+		
+
+
 	<div class="fw bottomfooter bg_blk60" id="copyrights">
 		<div class="container" align="center">
 			<p class="white text-center">© Lakkavaram Silage Fodder Pvt Ltd 2021. All rights reserved.</p>
