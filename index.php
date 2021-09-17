@@ -128,15 +128,43 @@
 		color: white;
 		line-height: 1.5em;
 	}
+	
+         .btn-grad {background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);}
+         .btn-grad {
+           
+            text-align: center;
+            /*text-transform: uppercase;*/
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            /*display: block;*/
+            padding: 12px;
+            margin-left: 20px;
+
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+
+          .btn-grad a{
+          	color: white;
+          	display: block;
+          }
+
 </style>
 
 <section id="hygiene_banner_home" class="title_desc_left mo_txc" style="background:orange;">
 	<div class="container">
 		<div class="fw fwp">
 			<div class="row pr">
-				<div class="col-md-6 hidden-xs">
+				<div class="col-md-6 hidden-xs" style="margin-top: 8em;">
 					<div class="mob_videos fw pr wow fadeIn animated">
-						<img src="public/images/home/Businesses.jpg" class="fw" alt="COVID-19 response">
+						<img src="public/images/home/Businesses.jpg" class="fw" alt="COVID-19 response" height="300" width="300">
 					</div>
 				</div>
 				<div class="col-md-6">
@@ -181,9 +209,9 @@
 				<div class="col-md-6 hidden-xs">
 					<div class="fw pr desc">
 						<img src="public/images/video_bg.png" class="fw hidden-xs">
-						<div class="fwpx no_mob_fwpx fw">
+						<div class="fwpx no_mob_fwpx fw" style="margin-left: -5em;">
 							<div class="col-md-10 col-md-offset-2">
-								<p class="logo" style="font-size: 1.7em;font-weight: bolder;">Our Solutions</p>
+								<p class="logo" style="font-size: 1.7em;font-weight: bolder;text-align: center;">Our Solutions</p>
 								<ul style="font-size: 1.3em;">
 									<li class="txt1">Adopted traditional silage making process to preserve the nutrients in  green fodder for the longer period. 
 </li>
@@ -201,13 +229,17 @@
 					</div>
 				</div>
 
-				<div class="col-md-6 col-xs-12">
+				<div class="col-md-6 col-xs-12" style="margin-top: 8em;">
 					<div class="fw pr wow fadeIn animated">
 						<div class="fw mob_videos">
 							<div class="fw owl-carousel owl-theme" id="hygiene_banner_slider">
-								<img src="public/images/home/Sustainability.jpg" class="fw" alt="Fighting COVID-19 - protekt multipurpose">
-															</div>
+								<img src="public/images/home/Sustainability.jpg" class="fw" alt="Fighting COVID-19 - protekt multipurpose" height="300" width="300">
+							</div>
 						</div>
+
+					</div>
+					<div align="center">
+						<button class="btn-grad" style="margin: 5em;padding-left: 4em;padding-right: 4em;"><a href="#" style="display: block;">Order now</a></button>
 					</div>
 				</div>
 

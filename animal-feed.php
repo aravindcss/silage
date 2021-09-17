@@ -52,83 +52,9 @@
 <?php include('header.php');?>
 <?php include('mobile_nav.php');?>
 
-<section class="fwp">
-	<!-- <div class="fw owl-carousel owl-theme" id="landing_other_slider"> -->
-		<div class="fwp">
-			<div class="fwvh pr" id="banner_csr_01">&nbsp;</div>
-			<!-- <div class="fw pxy txc landing_caption"><h2 class="animated fadeInUp">Corporate Social<br class="hidden-xs"> Responsibility</h2></div> -->
-		</div>
-		<!-- <div class="fwp">
-			<div class="fwvh pr" id="banner_csr_02">&nbsp;</div>
-		</div> -->
-		<!-- <div class="fwp">
-			<div class="fwvh pr" id="banner_csr_03">&nbsp;</div>
-		</div> -->
-	</div>
-	<ul id='landing_other_dots' class='owl-dots pyb zindex3'></ul>
-	<div class="single_multibanner_caption pxy txc zindex5">
-		<h1 class="white animated fadeInUp zindex5">Animal Feed</h1>
-	</div>
-</section>
-
-<section class="fw" id="our_strategy_csr">
-	<div class="fw title_desc_left">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 col-md-8 col-md-offset-2">
-					<div class="fw desc txc wow fadeInUp animated">
-						<h3 class="animal_page_titles">Providing solutions to India’s protein crisis</h3>
-					</div>
-				</div>
-		<div class="fw h50 h50m">&nbsp;</div>
-				<div class="col-md-5 col-md-offset-1 col-xs-12">
-					<div class="fw desc wow fadeInUp animated">
-						<p class="blk60 txcm" style="text-align: justify;">Our Animal Feed business is one of the largest organised players in the Compound Feed market in India, clocking over a million tonnes in annual sales. We have a diverse portfolio, including Cattle, Poultry, Aqua and Specialty Feed. Our over 32 state-of-the-art manufacturing plants, equipped with quality assurance labs, help farmers improve their farm productivity and profitability. We also work closely with farmers to provide on-farm technical support and engage them in skill building activities</p>
-					</div>
-				</div>
-				<div class="col-md-5 col-md-offset-1 col-xs-12">
-					<div class="fw desc wow fadeInUp animated">
-						<p class="blk60 txcm" style="text-align: justify;">We are investing significantly in cutting-edge Research & Development to support our innovation pipeline. In 2015, we set up the Nadir Godrej Centre for Animal Research and Development in Nashik, Maharashtra; a one-of-its-kind animal husbandry research centre in the private sector in India. Our focus will be to leverage capabilities at this centre, to develop cost effective solutions to improve animal productivity</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
 <section class="seperator">&nbsp;</section>
 
-<style type="text/css">
-	
-         .btn-grad {background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);}
-         .btn-grad {
-           
-            text-align: center;
-            /*text-transform: uppercase;*/
-            transition: 0.5s;
-            background-size: 200% auto;
-            color: white;            
-            box-shadow: 0 0 20px #eee;
-            border-radius: 10px;
-            /*display: block;*/
-            padding: 12px;
-            margin-left: 20px;
-
-          }
-
-          .btn-grad:hover {
-            background-position: right center; /* change the direction of the change here */
-            color: #fff;
-            text-decoration: none;
-          }
-
-          .btn-grad a{
-          	color: white;
-          	display: block;
-          }
-
-</style>
-
+<!-- Product start -->
 <section class="fw">
 	<div class="container title_desc_left">
 		<div class="row wow animated fadeInUp">
@@ -248,113 +174,424 @@
 				</div>
 			</div>
 		</div>
+	</div>
+</section>
+<!-- Product end -->
 
 
-		<div class="row wow animated fadeInUp">
-			<div class="col-md-12 col-xs-12 pd">
-				<div class="initiatives_box_container fw" id="Poultry_Feed">
-					<div class="initiatives_box pr fw">
-						<div class="seperator fw">&nbsp;</div>
-						<div class="col-md-7 col-xs-12 pd">
-							<h3 class="visible-xs txcm">Poultry Feed</h3>
-							<img src="public/images/businesses/animal-feed/Poultry_Feed.jpg" alt="Poultry Feed" width="100%" class="fw">
-						</div>
-						<div class="txcm fw fwpx pxy_mo">
-							<div class="col-md-5 col-md-offset-7">
-								<div class="col-md-10 col-md-offset-1 col-xs-12 col-xs-offset-0">
-									<h3 class="hidden-xs">Poultry Feed</h3>
-									<!-- <div class="fw h30m visible-xs">&nbsp;</div> -->
-									<p class="blk60 txcm">In the last few decades, the Indian poultry industry has evolved from a small-scale off-farm activity to commercial farming</p>
-									<!-- <a href="https://www.godrejagrovet.com/public/pdfs/csr/waste_management.pdf" target="_blank" class="learnmore pr">More<span class="arrow-down-close"></span></a> -->
-									<a href="javascript:void(0);" class="learnmore show_initiatives pr" rel="Poultry_Feed_Data" data-parent="Livelihood">More<span class="arrow-down-close"></span></a>
-									<button class="btn-grad"><a href="#" style="display: block;">Order now</a></button>
-								</div>
-							</div>
-						</div>
-						<div class="seperator fw hidden-xs">&nbsp;</div>
-						<div class="seperator_right left hidden-xs">&nbsp;</div>
-						<div class="seperator_right hidden-xs">&nbsp;</div>
+
+<section class="fw" id="our_strategy_csr">
+	<div class="fw title_desc_left">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 col-md-8 col-md-offset-2">
+					<div class="fw desc txc wow fadeInUp animated">
+						<h3 class="animal_page_titles">What is Silage</h3>
 					</div>
-				<div class="fw initiatives_boxdesc" id="Poultry_Feed_Data">
+				</div>
+		<!-- <div class="fw h50 h50m">&nbsp;</div> -->
+				<div class="col-md-12 col-xs-12">
+					<div class="fw desc wow fadeInUp animated">
+						<p class="blk60 txcm" style="text-align: justify;">Corn Silage is one of the best green fodders used in the dairy industry across the world. It is a very nutrious animal fodder with 8-9% protein and 3000kcal/kg digestible energy. The quality of corn silage is superior to any available green grass with more dry matter and long shelf life.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
-						<div class="col-md-10 col-md-offset-1 col-xs-12 col-xs-offset-0">
-							<div class="col-md-5 col-xs-12">
-								<div class="fw">
-									<p class="blk60 txcm">Our Poultry Feed and concentrates are formulated by using superior quality grains, amino acids, vitamins and minerals to address the growing demand for poultry meat and eggs.</p>
+<section class="seperator" style="margin-top: -2em;">&nbsp;</section>
+
+<section class="fw" id="our_strategy_csr" style="margin-top: -8em;">
+	<div class="fw title_desc_left">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 col-md-8 col-md-offset-2">
+					<div class="fw desc txc wow fadeInUp animated">
+						<h3 class="animal_page_titles">How we make silage</h3>
+					</div>
+				</div>
+		<!-- <div class="fw h50 h50m">&nbsp;</div> -->
+				<div class="col-md-12 col-xs-12" style="margin-top: 3em;">
+					<div class="fw desc wow fadeInUp animated">
+						<div class="row">
+							<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 howMakeSilage">
+								<div class="row" style="padding: 1em;">
+									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11" align="center">
+										<h5 style="padding-top: 1em;">Harvest</h5>
+									</div>
+									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11">
+										<ul>
+											<li style="margin-left: -4em;">Use best hybrid corn crop at 80-85 days</li>
+											<li style="margin-left: -4em;">Harvest crop at 30-35% dry master</li>
+											<li style="margin-left: -4em;">Uniform chop length</li>
+										</ul>
+									</div>
 								</div>
 							</div>
-							<div class="col-md-5 col-md-offset-1 col-xs-12">
-								<div class="fw">
-									<p class="blk60 txcm">Broiler Feed helps in weight gain and faster growth, which in turn, improves the feed conversion ratio. Layer Feed helps meet the nutritional needs of birds at each life-stage and optimises egg production of the flock.</p>
+							<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 howMakeSilage">
+								<div class="row" style="padding: 1em;">
+									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11" align="center">
+										<h5 style="padding-top: 1em;">Inculants addition</h5>
+									</div>
+									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11">
+										<ul>
+											<li>Improves quality of fermentation</li>
+											<li>Increases digestibility</li>
+											<li style="list-style-type: none;"></li>
+											<!-- <li>Uniform chop length</li> -->
+										</ul>
+									</div>
 								</div>
 							</div>
+						</div>
+					
+							<div class="row" style="margin-top: 1em;">
+									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 howMakeSilage">
+										<div class="row" style="padding: 1em;">
+											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11" align="center">
+												<h5 style="padding-top: 1em;">Compaction</h5>
+											</div>
+											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11">
+												<ul>
+													<li style="margin-left: -4em;">Use best in class european machine for compactionry</li>
+													<!-- <li style="margin-left: -4em;">Harvest crop at 30-35% dry master</li> -->
+													<!-- <li style="margin-left: -4em;">Uniform chop length</li> -->
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 howMakeSilage">
+										<div class="row" style="padding: 1em;">
+											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11" align="center">
+												<h5 style="padding-top: 1em;margin-left: -10em;">Packing</h5>
+											</div>
+											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11">
+												<ul>
+													<li style="margin-left: -8em;">Cover with high quality  imported stretch film</li>
+													<li style="margin-left: -8em;">UV proof and rodent repellent</li>
+													<li style="list-style-type: none;"></li>
+													<!-- <li>Uniform chop length</li> -->
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
 
-							<div class="fw h50 h50m">&nbsp;</div>
+						<div class="row" style="margin-top: 1em;">
+									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 howMakeSilage">
+										<div class="row" style="padding: 1em;">
+											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11" align="center">
+												<h5 style="padding-top: 1em;">Storage/Feed out</h5>
+											</div>
+											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11">
+												<ul>
+													<li>Shelf life upto 18 months</li>
+													<li>High quality feed guaranteed</li>
+													<!-- <li style="margin-left: -4em;">Uniform chop length</li> -->
+												</ul>
+											</div>
+										</div>
+									</div>
+						</div>
 
-							<div class="fw">
-								<div class="fw owl-theme owl-carousel business_slider">
-									
-									<div class="business_item">
-										<div class="fw initiatives_desc">
-											<img src="public/images/businesses/animal-feed/poultry-feed/value_max_pre-starter.jpg" alt="Poultry Feed" width="100%" class="fw">
-										</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="seperator">&nbsp;</section>
+
+
+<section class="fw" id="our_strategy_csr" style="margin-top: -8em;">
+	<div class="fw title_desc_left">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 col-md-8 col-md-offset-2">
+					<div class="fw desc txc wow fadeInUp animated">
+						<h3 class="animal_page_titles">Corn silage Benefits</h3>
+					</div>
+				</div>
+		<!-- <div class="fw h50 h50m">&nbsp;</div> -->
+				<div class="col-md-12 col-xs-12" style="margin-top: 3em;">
+					<div class="fw desc wow fadeInUp animated">
+						<div class="row">
+							<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 howMakeSilage">
+								<div class="row" style="padding: 1em;">
+									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11" align="center">
+										<h5 style="padding-top: 1em;">Image</h5>
 									</div>
-									<div class="business_item">
-										<div class="fw initiatives_desc">
-											<img src="public/images/businesses/animal-feed/poultry-feed/value_max_starter.jpg" alt="Poultry Feed" width="100%" class="fw">
-										</div>
+									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11">
+										<h6 style="padding-top: 1em;">Highly nutritions</h6>
 									</div>
-									<div class="business_item">
-										<div class="fw initiatives_desc">
-											<img src="public/images/businesses/animal-feed/poultry-feed/value_max_starter_02.jpg" alt="Poultry Feed" width="100%" class="fw">
-										</div>
-									</div>
-									<div class="business_item">
-										<div class="fw initiatives_desc">
-											<img src="public/images/businesses/animal-feed/poultry-feed/value_max_finisher.jpg" alt="Poultry Feed" width="100%" class="fw">
-										</div>
-									</div>
-									<div class="business_item">
-										<div class="fw initiatives_desc">
-											<img src="public/images/businesses/animal-feed/poultry-feed/value_max_finisher_03.jpg" alt="Poultry Feed" width="100%" class="fw">
-										</div>
-									</div>
-									<div class="business_item">
-										<div class="fw initiatives_desc">
-											<img src="public/images/businesses/animal-feed/poultry-feed/superstar-1.jpg" alt="Poultry Feed" width="100%" class="fw">
-										</div>
-									</div>
-									<div class="business_item">
-										<div class="fw initiatives_desc">
-											<img src="public/images/businesses/animal-feed/poultry-feed/superstar-4.jpg" alt="Poultry Feed" width="100%" class="fw">
-										</div>
-									</div>
-									<div class="business_item">
-										<div class="fw initiatives_desc">
-											<img src="public/images/businesses/animal-feed/poultry-feed/superstar-2.jpg" alt="Poultry Feed" width="100%" class="fw">
-										</div>
-									</div>
-									<div class="business_item">
-										<div class="fw initiatives_desc">
-											<img src="public/images/businesses/animal-feed/poultry-feed/superstar-5.jpg" alt="Poultry Feed" width="100%" class="fw">
-										</div>
-									</div>
-									
-									
 								</div>
 							</div>
+							<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 howMakeSilage">
+								<div class="row" style="padding: 1em;">
+									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11" align="center">
+										<h5 style="padding-top: 1em;">Image</h5>
+									</div>
+									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11">
+										<h6 style="padding-top: 1em;">Available throughout the year 24*7 / 365 days</h6>
+									</div>
+								</div>
+							</div>
+						</div>
+					
+							<div class="row" style="margin-top: 1em;">
+									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 howMakeSilage">
+										<div class="row" style="padding: 1em;">
+											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11" align="center">
+												<h5 style="padding-top: 1em;">Image</h5>
+											</div>
+											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11">
+												<h6 style="padding-top: 1em;">Better health and Reproductivity</h6>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 howMakeSilage">
+										<div class="row" style="padding: 1em;">
+											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11" align="center">
+												<h5 style="padding-top: 1em;">Image</h5>
+											</div>
+											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11">
+												<h6 style="padding-top: 1em;">Increasing milk yield by 20%</h6>
+											</div>
+										</div>
+									</div>
+								</div>
+
+						<div class="row" style="margin-top: 1em;">
+									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 howMakeSilage">
+										<div class="row" style="padding: 1em;">
+											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11" align="center">
+												<h5 style="padding-top: 1em;">Image</h5>
+											</div>
+											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11">
+												<h6 style="padding-top: 1em;">Reduce labor cost by 40%</h6>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 howMakeSilage">
+										<div class="row" style="padding: 1em;">
+											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11" align="center">
+												<h5 style="padding-top: 1em;">Image</h5>
+											</div>
+											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11">
+												<h6 style="padding-top: 1em;">Shelf life upto 18 months</h6>
+											</div>
+										</div>
+									</div>
+						</div>
+						<div class="row" style="margin-top: 1em;">
+									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 howMakeSilage">
+										<div class="row" style="padding: 1em;">
+											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11" align="center">
+												<h5 style="padding-top: 1em;">Image</h5>
+											</div>
+											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11">
+												<h6 style="padding-top: 1em;">30% to 40% dry matter</h6>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 howMakeSilage">
+										<div class="row" style="padding: 1em;">
+											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11" align="center">
+												<h5 style="padding-top: 1em;">Image</h5>
+											</div>
+											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11">
+												<h6 style="padding-top: 1em;">7 to 9% crude protein</h6>
+											</div>
+										</div>
+									</div>
+						</div>
+						<div class="row" style="margin-top: 1em;">
+									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 howMakeSilage">
+										<div class="row" style="padding: 1em;">
+											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11" align="center">
+												<h5 style="padding-top: 1em;">Image</h5>
+											</div>
+											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11">
+												<h6 style="padding-top: 1em;">Reduce feed cost by 25%</h6>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 howMakeSilage">
+										<div class="row" style="padding: 1em;">
+											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11" align="center">
+												<h5 style="padding-top: 1em;">Image</h5>
+											</div>
+											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11">
+												<h6 style="padding-top: 1em;">Quick growth for goat/sheep</h6>
+											</div>
+										</div>
+									</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="seperator">&nbsp;</section>
 
 
+<section class="fw" id="our_strategy_csr" style="margin-top: -8em;">
+	<div class="fw title_desc_left">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 col-md-8 col-md-offset-2">
+					<div class="fw desc txc wow fadeInUp animated">
+						<h3 class="animal_page_titles">How to use silage</h3>
+					</div>
+				</div>
+		<!-- <div class="fw h50 h50m">&nbsp;</div> -->
+				<div class="col-md-12 col-xs-12" style="margin-top: 3em;">
+					<div class="fw desc wow fadeInUp animated">
+						<div class="row">
+							<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 howMakeSilage">
+								<div class="row" style="padding: 1em;">
+									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11" align="center">
+										<h5 style="padding-top: 1em;">Image</h5>
+									</div>
+									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11">
+										<h6 style="padding-top: 1em;">Please handle bales carefully while unloading</h6>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 howMakeSilage">
+								<div class="row" style="padding: 1em;">
+									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11" align="center">
+										<h5 style="padding-top: 1em;">Image</h5>
+									</div>
+									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11">
+										<h6 style="padding-top: 1em;">Try using tractor engne and rope to unload 400 kg bales</h6>
+									</div>
+								</div>
+							</div>
+						</div>
+					
+							<div class="row" style="margin-top: 1em;">
+									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 howMakeSilage">
+										<div class="row" style="padding: 1em;">
+											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11" align="center">
+												<h5 style="padding-top: 1em;">Image</h5>
+											</div>
+											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11">
+												<h6 style="padding-top: 1em;">Please make sure bales dont get damaged while unloading</h6>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 howMakeSilage">
+										<div class="row" style="padding: 1em;">
+											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11" align="center">
+												<h5 style="padding-top: 1em;">Image</h5>
+											</div>
+											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11">
+												<h6 style="padding-top: 1em;">If found any wholes, please cover with teflon tape and extra film cover</h6>
+											</div>
+										</div>
+									</div>
+								</div>
+
+						<div class="row" style="margin-top: 1em;">
+									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 howMakeSilage">
+										<div class="row" style="padding: 1em;">
+											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11" align="center">
+												<h5 style="padding-top: 1em;">Image</h5>
+											</div>
+											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11">
+												<h6 style="padding-top: 1em;">Make sure to keep bales in dry place, away from water sources</h6>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 howMakeSilage">
+										<div class="row" style="padding: 1em;">
+											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11" align="center">
+												<h5 style="padding-top: 1em;">Image</h5>
+											</div>
+											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11">
+												<h6 style="padding-top: 1em;">Cut bales little and take out silage and close immediately</h6>
+											</div>
+										</div>
+									</div>
+						</div>
+						<div class="row" style="margin-top: 1em;">
+									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 howMakeSilage">
+										<div class="row" style="padding: 1em;">
+											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11" align="center">
+												<h5 style="padding-top: 1em;">Image</h5>
+											</div>
+											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11">
+												<h6 style="padding-top: 1em;">Avoid heavy rain fall on bales</h6>
+											</div>
+										</div>
+									</div>		
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-
 	</div>
 </section>
 
-<section class="ourstorydib seperator">&nbsp;</section>
+
+<section class="seperator">&nbsp;</section>
+
+<style type="text/css">
+	
+         .btn-grad {background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);}
+         .btn-grad {
+           
+            text-align: center;
+            /*text-transform: uppercase;*/
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            /*display: block;*/
+            padding: 12px;
+            margin-left: 20px;
+
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+
+          .btn-grad a{
+          	color: white;
+          	display: block;
+          }
+          ul li{
+          	list-style-type: circle;
+          	line-height: 1.5em;
+          }
+          .howMakeSilage{
+          	transition: .3s;
+          	border: 1px solid lightgray;
+          }
+          .howMakeSilage:hover{
+          	transition: .5s;
+          	box-shadow: 2px 2px 7px 2px lightgray;
+          	border-top-left-radius: 30px;
+          	border-bottom-left-radius: 30px;
+          }
+          table{
+          	border: 1px solid lightgray;
+          	width: 100%;
+          	height: auto;
+          }
+</style>
+
+<!-- <section class="ourstorydib seperator">&nbsp;</section> -->
 <?php include('footer.php');?>
 
 <script type="text/javascript" src="public/js/jquery.min.js"></script>

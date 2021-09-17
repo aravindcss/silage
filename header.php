@@ -171,5 +171,5 @@
 
 
 <div class="support">
-	<a href=""><img src="public/images/whatsup2.jpg" height="50" width="50"></a>
+	<a href="https://web.whatsapp.com/"><img src="public/images/whatsup2.jpg" height="50" width="50"></a>
 </div>

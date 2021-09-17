@@ -63,13 +63,13 @@ text-align: center;
 				<div class="fw footermenu">
 					<h6>Quick Links</h6>
 					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="know-us.html" >Who we are</a></li>
-						<li><a href="investors.html" >Our Story</a></li>
-						<li><a href="businesses.html" >Products</a></li>
-						<li><a href="investors.html" >Services</a></li>
-						<li><a href="people.html" >Photos</a></li>
-						<li><a href="innovation.html" >Videos</a></li> 
+						<li><a href="index.php">Home</a></li>
+						<li><a href="who-we-are.php" >Who we are</a></li>
+						<li><a href="investors.php" >Our Story</a></li>
+						<li><a href="animal-feed.php" >Products</a></li>
+						<li><a href="services.php" >Services</a></li>
+						<li><a href="photos.php" >Photos</a></li>
+						<li><a href="videos.php" >Videos</a></li> 
 					</ul>
 				</div>
 				
