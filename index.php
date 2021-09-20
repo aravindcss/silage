@@ -239,7 +239,7 @@
 
 					</div>
 					<div align="center">
-						<button class="btn-grad" style="margin: 5em;padding-left: 4em;padding-right: 4em;"><a href="#" style="display: block;">Order now</a></button>
+						<button class="btn-grad" style="margin: 5em;padding-left: 4em;padding-right: 4em;"><a href="customer_address.php" style="display: block;">Order now</a></button>
 					</div>
 				</div>
 

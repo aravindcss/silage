@@ -55,6 +55,25 @@
 <section class="seperator">&nbsp;</section>
 
 <!-- Product start -->
+
+				<?php
+
+				include('db_connection.php');
+                $sql = $conn->prepare("select * from products");
+                $sql->execute();
+                $result = $sql->get_result();
+                while ($row = $result->fetch_assoc()) {
+                        
+                        $id = $row['id'];
+                        $pname = $row['Name'];
+                        $pdescription = $row['Description'];
+                        $pimage = $row['Image'];
+                        $pprice = $row['Price'];
+                        $pdescription2 = $row['Description2'];
+	
+	                ?>
+
+
 <section class="fw">
 	<div class="container title_desc_left">
 		<div class="row wow animated fadeInUp">
@@ -65,17 +84,17 @@
 						<div class="seperator fw hidden-xs">&nbsp;</div>
 						<div class="col-md-7 col-xs-12 pd">
 							<div class="fw txc visible-xs">
-								<h3>Cattle Feed</h3>
+								<h3><?php echo $pname;?></h3>
 							</div>
-							<img src="public/images/businesses/animal-feed/Cattle_Feed.jpg" alt="Livelihood" width="100%" class="fw">
+							<img src="admin/assets/images/products/<?php echo($pimage);?>" alt="Livelihood" width="100%" class="fw">
 						</div>
 						<div class="fw fwpx txcm pxy_mo">
 							<div class="col-md-5 col-md-offset-7">
 								<div class="col-md-10 col-md-offset-1 col-xs-12 col-xs-offset-0">
-									<h3 class="hidden-xs">Cattle Feed</h3>
-									<p class="blk60">India is the world’s largest producer and consumer of milk, with rapidly growing demand</p>
-									<a href="javascript:void(0);" class="learnmore show_initiatives pr" rel="Livelihood_Data" data-parent="Livelihood">More<span class="arrow-down-close"></span></a>
-									<button class="btn-grad"><a href="#" style="display: block;">Order now</a></button>
+									<h3 class="hidden-xs"><?php echo $pname;?></h3>
+									<p class="blk60"><?php echo $pdescription; ?></p>
+									<!-- <a href="javascript:void(0);" class="learnmore show_initiatives pr" rel="Livelihood_Data" data-parent="Livelihood">More<span class="arrow-down-close"></span></a> -->
+									<button class="btn-grad"><a href="customer_address.php?id=<?php echo "$id";?>" style="display: block;">Order now</a></button>
 								</div>
 							</div>
 						</div>
@@ -87,87 +106,19 @@
 
 					<div class="fw initiatives_boxdesc" id="Livelihood_Data">
 
-						<div class="col-md-10 col-md-offset-1 col-xs-12 col-xs-offset-0">
+						<div class="col-md-10 col-xs-12 col-xs-offset-0">
 							<div class="col-md-5 col-xs-12">
 								<div class="fw">
-									<p class="blk60 txcm">Our Cattle Feed products are created with a deep understanding of Indian feeding practices and the breed and milk production levels of cows and buffaloes. They contain proteins, energy, minerals and vitamins to meet the nutritional requirements of dairy cattle.</p>
+									<p class="blk60 txcm"><?php echo "$pdescription2" ?></p>
 								</div>
 							</div>
-							<div class="col-md-5 col-md-offset-1 col-xs-12">
+							<!-- <div class="col-md-5 col-md-offset-1 col-xs-12">
 								<div class="fw">
 									<p class="blk60 txcm">We offer a variety of Cattle Feed to enhance milk production, reproductive ability and the overall health of cattle. We also work closely with farmers and offer on-site assistance to help them achieve higher yields.</p>
 								</div>
-							</div>
+							</div> -->
 
-							<div class="fw h50 h50m">&nbsp;</div>
-
-							<div class="fw">
-								<div class="fw owl-theme owl-carousel business_slider">
-									<div class="business_item">
-										<div class="fw initiatives_desc">
-											<img src="public/images/businesses/animal-feed/cattle-feed/bovino-calf-starter.jpg" alt="Cattle Feed" width="100%" class="fw">
-										</div>
-									</div>
-									<div class="business_item">
-										<div class="fw initiatives_desc">
-											<img src="public/images/businesses/animal-feed/cattle-feed/bovino-calf-grower.jpg" alt="Cattle Feed" width="100%" class="fw">
-										</div>
-									</div>
-									<div class="business_item">
-										<div class="fw initiatives_desc">
-											<img src="public/images/businesses/animal-feed/cattle-feed/bovino-heifer-feed.jpg" alt="Cattle Feed" width="100%" class="fw">
-										</div>
-									</div>
-									<div class="business_item">
-										<div class="fw initiatives_desc">
-											<img src="public/images/businesses/animal-feed/cattle-feed/bovino-lactation.jpg" alt="Cattle Feed" width="100%" class="fw">
-										</div>
-									</div>
-									<div class="business_item">
-										<div class="fw initiatives_desc">
-											<img src="public/images/businesses/animal-feed/cattle-feed/bovino-30.jpg" alt="Cattle Feed" width="100%" class="fw">
-										</div>
-									</div>
-									<div class="business_item">
-										<div class="fw initiatives_desc">
-											<img src="public/images/businesses/animal-feed/cattle-feed/dudhratna.jpg" alt="Cattle Feed" width="100%" class="fw">
-										</div>
-									</div>
-									<div class="business_item">
-										<div class="fw initiatives_desc">
-											<img src="public/images/businesses/animal-feed/cattle-feed/transeefeed-d-60.jpg" alt="Cattle Feed" width="100%" class="fw">
-										</div>
-									</div>
-									<div class="business_item">
-										<div class="fw initiatives_desc">
-											<img src="public/images/businesses/animal-feed/cattle-feed/godrej-bypro.jpg" alt="Cattle Feed" width="100%" class="fw">
-										</div>
-									</div>
-									<div class="business_item">
-										<div class="fw initiatives_desc">
-											<img src="public/images/businesses/animal-feed/cattle-feed/bovino-lactation.jpg" alt="Cattle Feed" width="100%" class="fw">
-										</div>
-									</div>
-									<div class="business_item">
-										<div class="fw initiatives_desc">
-											<img src="public/images/businesses/animal-feed/cattle-feed/milk-more.jpg" alt="Cattle Feed" width="100%" class="fw">
-										</div>
-									</div>
-									<div class="business_item">
-										<div class="fw initiatives_desc">
-											<img src="public/images/businesses/animal-feed/cattle-feed/cream-label.jpg" alt="Cattle Feed" width="100%" class="fw">
-										</div>
-									</div>
-									<div class="business_item">
-										<div class="fw initiatives_desc">
-											<img src="public/images/businesses/animal-feed/cattle-feed/moo-magicmix.jpg" alt="Cattle Feed" width="100%" class="fw">
-										</div>
-									</div>
-									
-									
-								</div>
-							</div>
-
+							<!-- <div class="fw h50 h50m">&nbsp;</div> -->
 
 						</div>
 					</div>
@@ -176,6 +127,9 @@
 		</div>
 	</div>
 </section>
+<?php  
+     }
+?>
 <!-- Product end -->
 
 
