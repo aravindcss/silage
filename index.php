@@ -158,99 +158,67 @@
 
 </style>
 
-<section id="hygiene_banner_home" class="title_desc_left mo_txc" style="background:orange;">
-	<div class="container">
-		<div class="fw fwp">
-			<div class="row pr">
-				<div class="col-md-6 hidden-xs" style="margin-top: 8em;">
-					<div class="mob_videos fw pr wow fadeIn animated">
-						<img src="public/images/home/Businesses.jpg" class="fw" alt="COVID-19 response" height="300" width="300">
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="fw pr desc">
-						<img src="public/images/video_bg.png" class="fw hidden-xs">
-						<div class="fwpx no_mob_fwpx fw">
-							<div class="col-md-10 col-md-offset-2">
-								<p class="logo" style="font-size: 1.7em;font-weight: bolder;">Problems facing in Dairy Industry</p>
-								<ul style="font-size: 1.3em;">
-									<li class="txt">65% Deficit in Green Fodder</li>
-									<li class="txt">25% Deficit in Dry Fodder </li>
-									 <li class="txt">30% Deficit in Crude Protein</li>
-									<li class="txt">Poor nutrition and improper feed management.</li>
-									<li class="txt">Low care on Animal Health.</li>
-									<li class="txt">Lack of technology in Green Fodder Preservation.</li>
-									<li class="txt"> High feed cost.</li>
-									<li class="txt">Shortage of labor for dairy farm maintenance.</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 visible-xs">
-					<div class="fw mob_videos pr wow fadeIn animated zindex3">
-						<img src="public/images/home/Businesses.jpg" class="fw" alt="COVID-19 response">
-					</div>
-				</div>
-			</div>
+
+<section class="features" style=" color: #FFFFFF; background-color:orange; padding: 80px 0;text-align: center;" >
+	<div class="container " >
+		<div class="row">
+<h1 style="margin-top: -20px; margin-bottom: 30px;font-weight: bolder; font-size: 40px;text-align: center;"> Problems facing in Dairy Industry</h1>
+			<div class="col-lg-4 col-sm-2">
+			 <img src="public/images/green-fodder.jpg" alt="" style="width:100px; height:100px; border-radius: 10px;" > 
+			<p style="font-weight: bolder; font-size: 20px;">65% Deficit in Green Fodder</p>
+			<p> High feed cost.</p>
+			<p>Shortage of labor for dairy farm maintenance.</p>
+		</div>
+		<div class="col-lg-4 col-sm-2" >
+		<img src="public/images/dry-fodder.jpeg" alt="" style="width:100px; height:100px; border-radius: 10px;"> 
+			<p style="font-weight: bolder;font-size: 20px;">25% Deficit in Dry Fodder</p>
+			<p>Lack of technology in Green Fodder Preservation.</p>
+		</div>
+		<div class="col-lg-4 col-sm-2" >
+		 <img src="public/images/cow-field.jpg" alt="" style="width:100px; height:100px; border-radius: 10px;"> 
+			<p style="font-weight: bolder;font-size: 20px;">30% Deficit in Crude Protein</p>
+			<p>Poor nutrition and improper feed management.</p>
+			<p>Low care on Animal Health.</p>
 		</div>
 	</div>
+
+</div>
 </section>
 
 
 <p style="margin-top: 2px;"></p>
 
 
-<section id="hygiene_banner_home" class="title_desc_left mo_txc" style="background: green;">
-	<div class="container">
-		<div class="fw fwp">
-			<div class="row">
-
-				<div class="col-md-6 hidden-xs">
-					<div class="fw pr desc">
-						<img src="public/images/video_bg.png" class="fw hidden-xs">
-						<div class="fwpx no_mob_fwpx fw" style="margin-left: -5em;">
-							<div class="col-md-10 col-md-offset-2">
-								<p class="logo" style="font-size: 1.7em;font-weight: bolder;text-align: center;">Our Solutions</p>
-								<ul style="font-size: 1.3em;">
-									<li class="txt1">Adopted traditional silage making process to preserve the nutrients in  green fodder for the longer period. 
-</li>
-									<li class="txt1">Using world class silage making machinery for commercial production.</li>
-									<!--  <li class="txt1">Mixing Inoculants containing lactic Acid-producing Bacteria helps in improving Fermentation process</li> -->
-									<li class="txt1">Improves the farm productivity by substantially reducing the labor cost and feed costs.
-</li>
-									<li class="txt1">Helps Dairy farmers to increase the milk producti</li>
-									<li class="txt1">Helps Goat / Sheep farmers to gain more weight in short period.</li>
-									<!-- <li class="txt"> High feed cost.</li> -->
-									<!-- <li class="txt">Shortage of labor for dairy farm maintenance.</li> -->
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-6 col-xs-12" style="margin-top: 8em;">
-					<div class="fw pr wow fadeIn animated">
-						<div class="fw mob_videos">
-							<div class="fw owl-carousel owl-theme" id="hygiene_banner_slider">
-								<img src="public/images/home/Sustainability.jpg" class="fw" alt="Fighting COVID-19 - protekt multipurpose" height="300" width="300">
-							</div>
-						</div>
-
-					</div>
-					<div align="center">
-						<button class="btn-grad" style="margin: 5em;padding-left: 4em;padding-right: 4em;"><a href="customer_address.php" style="display: block;">Order now</a></button>
-					</div>
-				</div>
-
-
-
-			</div>
-
+<section class="features" style=" color: white;background-color: green;padding: 80px 0;text-align: center;" >
+	<div class="container " >
+		<div class="row">
+<h1 style="margin-top: -20px; margin-bottom: 30px;font-weight: bolder; font-size: 40px;text-align: center;"> Our Solutions</h1>
+			<div class="col-lg-4 col-sm-2">
+			 <img src="public/images/silagemaking.jpg" alt="" style="width:300px; height:300px; border-radius: 10px;" > 
+			<!-- <p style="font-weight: bolder;">65% Deficit in Green Fodder</p> -->
+				<li >
+		Adopted traditional silage making process to preserve the nutrients in  green fodder for the longer period.</li>
+			<li>Using world class silage making machinery for commercial production.</li>
+		
+		</div>
+		<div class="col-lg-4 col-sm-2" >
+		<img src="public/images/silagemaking.jpg" alt="" style="width:300px; height:300px; border-radius: 10px;"> 
+			<!-- <p style="font-weight: bolder;">25% Deficit in Dry Fodder</p> -->
+			<li>Improves the farm productivity by substantially reducing the labor cost and feed costs..</li>
+		</div>
+		<div class="col-lg-4 col-sm-2" >
+		 <img src="public/images/silagemaking.jpg" alt="" style="width:300px; height:300px; border-radius: 10px;"> 
+			<!-- <p style="font-weight: bolder;">30% Deficit in Crude Protein</p> -->
+				<li>Helps Dairy farmers to increase the milk productivity.</li>
+			<li>Helps Goat / Sheep farmers to gain more weight in short period.</li>
 		</div>
 	</div>
+<div align="center">
+	<button class="btn-grad" style="margin: 2em;padding-left: 4em;padding-right: 4em; margin-top: 50px;margin-bottom: -30px;">
+		<a href="animal-feed.php" style="display: block;">Order now</a></button>
+	</div>
+</div>
 </section>
-
 
 
 <section class="seperator">&nbsp;</section>

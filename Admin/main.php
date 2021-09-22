@@ -1,5 +1,5 @@
 <?php
-error_reporting(0);
+// error_reporting(0);
 session_start();
 include('db_connection.php');
 $name = $_SESSION['username'];
@@ -21,11 +21,11 @@ $adminName = $result['name'];
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
   <meta name="description" content=""/>
   <meta name="author" content=""/>
-  <title>Admin panel - Avanni Organics</title>
+  <title>Admin panel - Nutri Corn Silage</title>
   <!-- loader-->
   <link href="assets/css/pace.min.css" rel="stylesheet"/>
   <script src="assets/js/pace.min.js"></script>
-  <link rel="icon" href="assets/images/logo.png" type="image/x-icon">
+  <link rel="icon" href="" type="image/x-icon">
   <link href="assets/plugins/vectormap/jquery-jvectormap-2.0.2.css" rel="stylesheet"/>
   <link href="assets/plugins/simplebar/css/simplebar.css" rel="stylesheet"/>
   <link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
@@ -45,8 +45,8 @@ $adminName = $result['name'];
    <div id="sidebar-wrapper" data-simplebar="" data-simplebar-auto-hide="true">
      <div class="brand-logo">
       <a href="main.php">
-       <img src="assets/images/logo.png" class="logo-icon" alt="logo icon">
-       <h5 class="logo-text">Avanni Organics</h5>
+       <img src="" class="logo-icon" alt="logo icon">
+       <h5 class="logo-text">Nutri Corn Silage</h5>
      </a>
    </div>
    <ul class="sidebar-menu do-nicescrol">
@@ -104,21 +104,8 @@ $adminName = $result['name'];
     <div class="container-fluid">
 
 
-  <!-- Finding order and Revenue Details -->
   <?php
-  // $product_id = "";
-  //     $sql = $conn->prepare("SELECT count(product_id) AS product_id FROM orders");
-  //     // $sql->bind_param("i", $product_id);
-  //     $sql->execute();
-  //     $result = $stmt->get_result();
-      
-  //     $row = mysqli_fetch_array($result);
-  //     $count = $row['product_id'];
-  //     echo "$count";
-
-      // $sql = mysqli_query($conn, " SELECT count(product_id) AS product_id FROM orders");
-      // $result = mysqli_fetch_assoc($sql);
-      // $count = $result['product_id'];
+  
       $total_amount = 0;
       $total_orders = 0;
       $sqll = mysqli_query($conn, " SELECT * FROM orders");
@@ -225,7 +212,7 @@ $adminName = $result['name'];
 	<footer class="footer">
       <div class="container">
         <div class="text-center">
-          Copyright © <?php echo date('Y')?> Avanni Organics
+          Copyright © <?php echo date('Y')?> Nurti Corn Silage
         </div>
       </div>
     </footer>

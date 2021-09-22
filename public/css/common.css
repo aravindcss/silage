@@ -5,7 +5,7 @@ del, dfn, em, font, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
+fieldset, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;text-decoration:none;background:transparent;}
 body{line-height:1;}
 ol, ul{list-style:none;}
@@ -16,7 +16,7 @@ q:before, q:after{content:'';content:none;}
 ins{text-decoration:none;}
 del{text-decoration:line-through;}
 table{border-collapse:collapse;border-spacing:0;}
-form textarea{resize:none;}
+/*form textarea{resize:none;}*/
 a:hover, a:focus, a:active{text-decoration:none !important;color:inherit;outline:none !important;}
 
 html{-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%; margin: 0;}
@@ -85,9 +85,9 @@ button {border-color: transparent; border: 0; padding: 0; margin: 0;}
 body{ font-size: 16px;font-family: 'Avenir-Medium', sans-serif;color: #212120; margin: 0; overflow-x: hidden; }
 p {font-size: 15px; line-height: 28px;}
 
-input, textarea {
+/*input, textarea {
     -webkit-appearance: none; border-radius: 0px;
-}
+}*/
 
 .Avenir_Black {font-family: 'Avenir-Black' !important; font-weight: normal;}
 .Avenir_Book {font-family: 'Avenir-Book' !important; font-weight: normal;}
@@ -480,7 +480,7 @@ a:hover .videoplayic::before, a:active .videoplayic::before, a:focus .videoplayi
 }
 .accordshow .arrowupdown { top: 37px; transform: rotate(-135deg); transition: 0.5s;}
 
-.input {width: 100% !important; padding: 11px 15px 9px 15px !important; position: relative; border: 0; text-decoration: none; text-align: left; color: #000; outline: none; vertical-align: middle; display: inline-block; cursor: default; cursor: pointer; border: 0px !important; height: auto; background: #f7f7f7; border: 0; font-family: 'Avenir-Roman'; font-size: 16px; line-height: 20px;}
+/*.input {width: 100% !important; padding: 11px 15px 9px 15px !important; position: relative; border: 0; text-decoration: none; text-align: left; color: #000; outline: none; vertical-align: middle; display: inline-block; cursor: default; cursor: pointer; border: 0px !important; height: auto; background: #f7f7f7; border: 0; font-family: 'Avenir-Roman'; font-size: 16px; line-height: 20px;}*/
 
 
  .all_over_loader {
@@ -696,7 +696,7 @@ a.gs-title, a.gs-title b, a.gs-title strong {
     .accordshow .arrowupdown {top: 34px;}
     .arrowupdown {padding: 9px; top: 22px;}
 
-  .input {font-size: 13px;}
+  /*.input {font-size: 13px;}*/
 
   #global_menus_mo {
     float: left;

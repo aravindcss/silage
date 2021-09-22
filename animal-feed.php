@@ -160,97 +160,21 @@
 	<div class="fw title_desc_left">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-8 col-md-offset-2 col-md-8 col-md-offset-2">
+				<!-- <div class="col-md-8 col-md-offset-2 col-md-8 col-md-offset-2">
 					<div class="fw desc txc wow fadeInUp animated">
 						<h3 class="animal_page_titles">How we make silage</h3>
 					</div>
-				</div>
+				</div> -->
+
 		<!-- <div class="fw h50 h50m">&nbsp;</div> -->
-				<div class="col-md-12 col-xs-12" style="margin-top: 3em;">
-					<div class="fw desc wow fadeInUp animated">
-						<div class="row">
-							<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 howMakeSilage">
-								<div class="row" style="padding: 1em;">
-									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11" align="center">
-										<h5 style="padding-top: 1em;">Harvest</h5>
-									</div>
-									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11">
-										<ul>
-											<li style="margin-left: -4em;">Use best hybrid corn crop at 80-85 days</li>
-											<li style="margin-left: -4em;">Harvest crop at 30-35% dry master</li>
-											<li style="margin-left: -4em;">Uniform chop length</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 howMakeSilage">
-								<div class="row" style="padding: 1em;">
-									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11" align="center">
-										<h5 style="padding-top: 1em;">Inculants addition</h5>
-									</div>
-									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11">
-										<ul>
-											<li>Improves quality of fermentation</li>
-											<li>Increases digestibility</li>
-											<li style="list-style-type: none;"></li>
-											<!-- <li>Uniform chop length</li> -->
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-					
-							<div class="row" style="margin-top: 1em;">
-									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 howMakeSilage">
-										<div class="row" style="padding: 1em;">
-											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11" align="center">
-												<h5 style="padding-top: 1em;">Compaction</h5>
-											</div>
-											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11">
-												<ul>
-													<li style="margin-left: -4em;">Use best in class european machine for compactionry</li>
-													<!-- <li style="margin-left: -4em;">Harvest crop at 30-35% dry master</li> -->
-													<!-- <li style="margin-left: -4em;">Uniform chop length</li> -->
-												</ul>
-											</div>
-										</div>
-									</div>
-									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 howMakeSilage">
-										<div class="row" style="padding: 1em;">
-											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11" align="center">
-												<h5 style="padding-top: 1em;margin-left: -10em;">Packing</h5>
-											</div>
-											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11">
-												<ul>
-													<li style="margin-left: -8em;">Cover with high quality  imported stretch film</li>
-													<li style="margin-left: -8em;">UV proof and rodent repellent</li>
-													<li style="list-style-type: none;"></li>
-													<!-- <li>Uniform chop length</li> -->
-												</ul>
-											</div>
-										</div>
-									</div>
-								</div>
+	
+<div class="container">
+	<div class="col-lg-12 col-md-12 col-sm-12" >
+<img src="public/images/silage/make-silage.jpg" alt=""  style="margin-top:50px;width:100%;">
+</div>
+</div>
 
-						<div class="row" style="margin-top: 1em;">
-									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 howMakeSilage">
-										<div class="row" style="padding: 1em;">
-											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11" align="center">
-												<h5 style="padding-top: 1em;">Storage/Feed out</h5>
-											</div>
-											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11">
-												<ul>
-													<li>Shelf life upto 18 months</li>
-													<li>High quality feed guaranteed</li>
-													<!-- <li style="margin-left: -4em;">Uniform chop length</li> -->
-												</ul>
-											</div>
-										</div>
-									</div>
-						</div>
-
-					</div>
-				</div>
+				
 			</div>
 		</div>
 	</div>
@@ -263,129 +187,17 @@
 	<div class="fw title_desc_left">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-8 col-md-offset-2 col-md-8 col-md-offset-2">
+				<!-- <div class="col-md-8 col-md-offset-2 col-md-8 col-md-offset-2">
 					<div class="fw desc txc wow fadeInUp animated">
 						<h3 class="animal_page_titles">Corn silage Benefits</h3>
 					</div>
-				</div>
+				</div> -->
 		<!-- <div class="fw h50 h50m">&nbsp;</div> -->
-				<div class="col-md-12 col-xs-12" style="margin-top: 3em;">
-					<div class="fw desc wow fadeInUp animated">
-						<div class="row">
-							<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 howMakeSilage">
-								<div class="row" style="padding: 1em;">
-									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11" align="center">
-										<h5 style="padding-top: 1em;">Image</h5>
-									</div>
-									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11">
-										<h6 style="padding-top: 1em;">Highly nutritions</h6>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 howMakeSilage">
-								<div class="row" style="padding: 1em;">
-									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11" align="center">
-										<h5 style="padding-top: 1em;">Image</h5>
-									</div>
-									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11">
-										<h6 style="padding-top: 1em;">Available throughout the year 24*7 / 365 days</h6>
-									</div>
-								</div>
-							</div>
-						</div>
 					
-							<div class="row" style="margin-top: 1em;">
-									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 howMakeSilage">
-										<div class="row" style="padding: 1em;">
-											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11" align="center">
-												<h5 style="padding-top: 1em;">Image</h5>
-											</div>
-											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11">
-												<h6 style="padding-top: 1em;">Better health and Reproductivity</h6>
-											</div>
-										</div>
-									</div>
-									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 howMakeSilage">
-										<div class="row" style="padding: 1em;">
-											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11" align="center">
-												<h5 style="padding-top: 1em;">Image</h5>
-											</div>
-											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11">
-												<h6 style="padding-top: 1em;">Increasing milk yield by 20%</h6>
-											</div>
-										</div>
-									</div>
-								</div>
-
-						<div class="row" style="margin-top: 1em;">
-									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 howMakeSilage">
-										<div class="row" style="padding: 1em;">
-											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11" align="center">
-												<h5 style="padding-top: 1em;">Image</h5>
-											</div>
-											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11">
-												<h6 style="padding-top: 1em;">Reduce labor cost by 40%</h6>
-											</div>
-										</div>
-									</div>
-									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 howMakeSilage">
-										<div class="row" style="padding: 1em;">
-											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11" align="center">
-												<h5 style="padding-top: 1em;">Image</h5>
-											</div>
-											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11">
-												<h6 style="padding-top: 1em;">Shelf life upto 18 months</h6>
-											</div>
-										</div>
-									</div>
-						</div>
-						<div class="row" style="margin-top: 1em;">
-									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 howMakeSilage">
-										<div class="row" style="padding: 1em;">
-											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11" align="center">
-												<h5 style="padding-top: 1em;">Image</h5>
-											</div>
-											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11">
-												<h6 style="padding-top: 1em;">30% to 40% dry matter</h6>
-											</div>
-										</div>
-									</div>
-									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 howMakeSilage">
-										<div class="row" style="padding: 1em;">
-											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11" align="center">
-												<h5 style="padding-top: 1em;">Image</h5>
-											</div>
-											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11">
-												<h6 style="padding-top: 1em;">7 to 9% crude protein</h6>
-											</div>
-										</div>
-									</div>
-						</div>
-						<div class="row" style="margin-top: 1em;">
-									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 howMakeSilage">
-										<div class="row" style="padding: 1em;">
-											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11" align="center">
-												<h5 style="padding-top: 1em;">Image</h5>
-											</div>
-											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11">
-												<h6 style="padding-top: 1em;">Reduce feed cost by 25%</h6>
-											</div>
-										</div>
-									</div>
-									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 howMakeSilage">
-										<div class="row" style="padding: 1em;">
-											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11" align="center">
-												<h5 style="padding-top: 1em;">Image</h5>
-											</div>
-											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11">
-												<h6 style="padding-top: 1em;">Quick growth for goat/sheep</h6>
-											</div>
-										</div>
-									</div>
-						</div>
-
-					</div>
-				</div>
+					<div class="container">
+<img src="public/images/silage/silage-benifits.jpg" alt=""  style="margin-top:50px;width:100%;">
+					</div>					
+				
 			</div>
 		</div>
 	</div>
@@ -398,95 +210,15 @@
 	<div class="fw title_desc_left">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-8 col-md-offset-2 col-md-8 col-md-offset-2">
+				<!-- <div class="col-md-8 col-md-offset-2 col-md-8 col-md-offset-2">
 					<div class="fw desc txc wow fadeInUp animated">
 						<h3 class="animal_page_titles">How to use silage</h3>
 					</div>
-				</div>
+				</div> -->
 		<!-- <div class="fw h50 h50m">&nbsp;</div> -->
-				<div class="col-md-12 col-xs-12" style="margin-top: 3em;">
-					<div class="fw desc wow fadeInUp animated">
-						<div class="row">
-							<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 howMakeSilage">
-								<div class="row" style="padding: 1em;">
-									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11" align="center">
-										<h5 style="padding-top: 1em;">Image</h5>
-									</div>
-									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11">
-										<h6 style="padding-top: 1em;">Please handle bales carefully while unloading</h6>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 howMakeSilage">
-								<div class="row" style="padding: 1em;">
-									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11" align="center">
-										<h5 style="padding-top: 1em;">Image</h5>
-									</div>
-									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11">
-										<h6 style="padding-top: 1em;">Try using tractor engne and rope to unload 400 kg bales</h6>
-									</div>
-								</div>
-							</div>
-						</div>
-					
-							<div class="row" style="margin-top: 1em;">
-									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 howMakeSilage">
-										<div class="row" style="padding: 1em;">
-											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11" align="center">
-												<h5 style="padding-top: 1em;">Image</h5>
-											</div>
-											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11">
-												<h6 style="padding-top: 1em;">Please make sure bales dont get damaged while unloading</h6>
-											</div>
-										</div>
-									</div>
-									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 howMakeSilage">
-										<div class="row" style="padding: 1em;">
-											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11" align="center">
-												<h5 style="padding-top: 1em;">Image</h5>
-											</div>
-											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11">
-												<h6 style="padding-top: 1em;">If found any wholes, please cover with teflon tape and extra film cover</h6>
-											</div>
-										</div>
-									</div>
-								</div>
-
-						<div class="row" style="margin-top: 1em;">
-									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 howMakeSilage">
-										<div class="row" style="padding: 1em;">
-											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11" align="center">
-												<h5 style="padding-top: 1em;">Image</h5>
-											</div>
-											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11">
-												<h6 style="padding-top: 1em;">Make sure to keep bales in dry place, away from water sources</h6>
-											</div>
-										</div>
-									</div>
-									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 howMakeSilage">
-										<div class="row" style="padding: 1em;">
-											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11" align="center">
-												<h5 style="padding-top: 1em;">Image</h5>
-											</div>
-											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11">
-												<h6 style="padding-top: 1em;">Cut bales little and take out silage and close immediately</h6>
-											</div>
-										</div>
-									</div>
-						</div>
-						<div class="row" style="margin-top: 1em;">
-									<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 howMakeSilage">
-										<div class="row" style="padding: 1em;">
-											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11" align="center">
-												<h5 style="padding-top: 1em;">Image</h5>
-											</div>
-											<div class="col-lg-6 col-md-6 col-sm-11 col-xs-11">
-												<h6 style="padding-top: 1em;">Avoid heavy rain fall on bales</h6>
-											</div>
-										</div>
-									</div>		
-						</div>
-					</div>
+				
+				<div class="container">
+<img src="public/images/silage/use-silage.jpg" alt=""  style="margin-top:50px;width:100%;">
 				</div>
 			</div>
 		</div>

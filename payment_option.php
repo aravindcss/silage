@@ -4,7 +4,7 @@ error_reporting(0);
 session_start();
 include("db_connection.php");
 // $Pid = $_SESSION['Pid'];
-$Product_id = $_SESSION['$Product_id'];
+$Product_id = $_SESSION['Product_id'];
 // $product_name = $_SESSION['product_name'];
 // $product_image = $_SESSION['product_image'];
 // $product_price = $_SESSION['product_price'];
@@ -60,8 +60,10 @@ $productresult = $result->fetch_assoc();
     $qty = $_POST["qty"];
     $total_amount = $_POST["total_amount"];
 
-    $stmt = $conn->prepare("INSERT INTO `orders`(`cust_id`, `product_id`, `status`, `qty`, `total_amount`) VALUES (?, ?, ?, ?, ?)");
-    $stmt->bind_param("iisis", $cust_id, $Pid, $status, $qty, $total_amount);
+    echo "<script>alert($total_amount);</script>";
+
+    $stmt = $conn->prepare("INSERT INTO `orders`(`product_id`, `status`, `qty`, `total_amount`) VALUES (?, ?, ?, ?)");
+    $stmt->bind_param("isis", $Product_id, $status, $qty, $total_amount);
     $stmt->execute();
 
     if($stmt == true) 
@@ -164,10 +166,7 @@ box-shadow: 4px 3px 14px 7px lightgray;
 {
   margin-bottom: -7px;
 }
-@media only screen and(max-width: 1050px)
-{
-  
-}
+
     </style>
 <head>
     <title>Nutri Corn Silage</title>
@@ -189,18 +188,8 @@ box-shadow: 4px 3px 14px 7px lightgray;
 	<link rel="stylesheet" type="text/css" href="public/css/animate.css">
 	<link rel="stylesheet" type="text/css" href="public/css/home.css">
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
-    <link href="assets/css/themify-icons.css" rel="stylesheet" />
-    <link href="assets/css/flaticon-set.css" rel="stylesheet" />
-    <link href="assets/css/magnific-popup.css" rel="stylesheet" />
-    <link href="assets/css/owl.carousel.min.css" rel="stylesheet" />
-    <link href="assets/css/owl.theme.default.min.css" rel="stylesheet" />
-    <link href="assets/css/animate.css" rel="stylesheet" />
-    <link href="assets/css/bootsnav.css" rel="stylesheet" />
-    <link href="styles.css" rel="stylesheet">
-    <link href="assets/css/responsive.css" rel="stylesheet" />
+    <!-- <link href="styles.css" rel="stylesheet"> -->
+    <!-- <link href="assets/css/responsive.css" rel="stylesheet" /> -->
 
 
 	     <script>
@@ -237,7 +226,17 @@ box-shadow: 4px 3px 14px 7px lightgray;
 
     <!-- analytics code here -->
 
-
+ <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="assets/css/themify-icons.css" rel="stylesheet" />
+    <link href="assets/css/flaticon-set.css" rel="stylesheet" />
+    <link href="assets/css/magnific-popup.css" rel="stylesheet" />
+    <link href="assets/css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="assets/css/owl.theme.default.min.css" rel="stylesheet" />
+    <link href="assets/css/animate.css" rel="stylesheet" />
+    <link href="assets/css/bootsnav.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet" />
     
     <script type="text/javascript">
         var site_url = "index.php";
@@ -296,20 +295,20 @@ box-shadow: 4px 3px 14px 7px lightgray;
                </div>
                <hr class="mt-3">
                <h4 class="mt-4" style="text-transform: uppercase;font-weight: bold;font-size: 20px;color: gray;letter-spacing: 1px;">Payment Mode</h4>
-               <div class="paymentType mb-4" align="center">
+               <!-- <div class="paymentType mb-4" align="center">
                    
                     <table>
                         
                             <tr><label for="cod">
                                 <td><input type="radio" name="cards" style="width: 1.2em;" id="cod" required></td>
-                                <!-- <td><input type="checkbox" name=""></td> -->
+                                <td><input type="checkbox" name=""></td>
                                 <td><h5 style="font-size: 17px;" class="ml-3 mt-3">Cash on Delivery</h5></td>
                             </label>
                             </tr>
                        
                     </table>
                   
-               </div>
+               </div> -->
                <input type="submit" name="submit" value="CONFIRM ORDER" class="btn-grad btn-block">
                </form>
               </div>
